@@ -85,7 +85,4 @@ level ratio), `FP.CPI.TOTL.ZG` (inflation), and `SE.XPD.TOTL.GD.ZS`
 
 ## Deployment
 
-A live, interactive comparison tool (published web page) lets a user pick
-any two countries and see them compared side-by-side, including their
-affordability-group label. Live at:
-https://claude.ai/artifact/RuXMTffUqpBFsnWzsbZGS8
+A live, interactive comparison tool will be published we are working on it 
