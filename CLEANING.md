@@ -9,7 +9,7 @@ where a decision was made to leave something unchanged.
 ## Entry 1 — Long-to-wide pivot (no values changed)
 
 **Found:** The raw table from `fetch_data.py` is long: one row per
-country-per-indicator (1159 raw rows across 5 indicators, before removing
+country-per-indicator (1160 raw rows across 5 indicators, before removing
 aggregates).
 **Action:** Pivoted so each row is one country and each column is one
 indicator (`pivot_to_country_rows`), using `aggfunc="first"` since each
@@ -20,7 +20,7 @@ country has at most one most-recent-non-empty value per indicator.
 
 **Found:** The World Bank API's "all countries" endpoint also returns
 regional and income-group aggregates (e.g. `WLD` = World, `HIC` = High
-income, `LMY` = Low & middle income) mixed in with real countries — 47
+income, `LMY` = Low & middle income) mixed in with real countries — 43
 such codes.
 **Action:** Filtered these out by ISO3 code before any further cleaning.
 **Why:** These are not countries; including them would let a region's
@@ -47,8 +47,7 @@ than needing a new indicator choice.
 not covered by all WDI series, e.g. Faroe Islands and Greenland have no
 inflation figure; Andorra and Bermuda have no inflation figure either).
 **Action:** Dropped any country missing one of these three *essential*
-indicators. This took the dataset from 201 fetched countries/territories to
-191.
+indicators. 26 rows dropped; 191 countries remaining.
 **Why:** These three indicators are used directly in both the comparison
 table and the clustering model — a country missing one can't be placed
 meaningfully.
