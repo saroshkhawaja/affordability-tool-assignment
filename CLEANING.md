@@ -93,7 +93,7 @@ the math that decides group membership.
 ## Entry 8 — Data Quality Verification
 Data quality was checked for the final data set and showed that there were no duplicate country_code values, just 191. All three essential indicators had no missing values, and only two (education_spend_pct_gdp) were found to have missing values. Data types were also checked: numeric indicators stored as float64, the cluster ID as int64, the instability flag as bool, country identifiers and group labels as strings. No extra lines were deleted in this verification, which shows that the set contains 191 items.
 
-## Entry 9 - Year Consistency Check
+## Entry 9 — Year Consistency Check
 191 countries were checked and 168 of them had the same reporting year on the indicators, and 23 countries (around 12%) had different reporting years. There were no changes to data at this check, only to help identify differences in reporting years. Such mismatches could impact the reliability of price_level_ratio comparisons as indicators reported for different years may not accurately reflect the same economic conditions.
 
 ## Verified pipeline run
