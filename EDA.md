@@ -44,7 +44,7 @@ skewness as a legitimate follow-up refinement, not a change already made.)
 
 ## Five properties of the data
 
-- **Structure:** Tabular, one row per country, 9 columns (after cleaning)
+- **Structure:** Tabular, one row per country, 12 columns (after cleaning)
   mixing raw indicators, derived features, and the final cluster label.
 - **Granularity:** Country-level — the finest level this dataset offers;
   no sub-national (city/region) detail, which matters because actual
