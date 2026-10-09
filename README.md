@@ -13,8 +13,6 @@ side-by-side comparison of any two countries and see which affordability
 tier (Budget-Friendly / Mid-Range / Premium) a country falls into, based on
 a K-Means clustering model.
 
-**Live tool:** https://claude.ai/artifact/RuXMTffUqpBFsnWzsbZGS8
-
 ## Repo structure
 
 ```
