@@ -90,6 +90,9 @@ distance-based clustering, while the flag and the untouched display value
 mean no information is lost or hidden from the end user — just kept out of
 the math that decides group membership.
 
+## Entry 8 — Data Quality Verification
+Data quality was checked for the final data set and showed that there were no duplicate country_code values, just 191. All three essential indicators had no missing values, and only two (education_spend_pct_gdp) were found to have missing values. Data types were also checked: numeric indicators stored as float64, the cluster ID as int64, the instability flag as bool, country identifiers and group labels as strings. No extra lines were deleted in this verification, which shows that the set contains 191 items.
+
 ## Verified pipeline run
 
 Running `fetch_data.py` then `clean_data.py` end-to-end on the author's
