@@ -90,4 +90,4 @@ A live, interactive comparison tool will be published we are working on it
 
 ## Why we changed the topic 
 
-we changed the topic because it was too basic. We discussed with our instructor and she advised us to build that project which should be recognizable. so we switched our project from Foreign Reserves to Country Score Card in which students who wants to study abroad can compare countries and check the affordability.
+We changed the topic because it was too basic. We discussed with our instructor and she advised us to build that project which should be recognizable. so we switched our project from Foreign Reserves to Country Score Card in which students who wants to study abroad can compare countries and check the affordability.
