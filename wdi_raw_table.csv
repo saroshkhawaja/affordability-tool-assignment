@@ -1,0 +1,1161 @@
+country_code,country_name,value,date,indicator_code,indicator_name
+AFE,Africa Eastern and Southern,4730.69171906241,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+AFW,Africa Western and Central,6924.88851476,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ARB,Arab World,19694.5272643318,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CSS,Caribbean small states,38621.5073048547,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CEB,Central Europe and the Baltics,51153.500042318,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+EAR,Early-demographic dividend,14470.1608346725,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+EAS,East Asia & Pacific,29315.3130793931,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+EAP,East Asia & Pacific (excluding high income),24928.2207765038,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TEA,East Asia & Pacific (IDA & IBRD countries),25209.3311823113,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+EMU,Euro area,67275.5364634209,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ECS,Europe & Central Asia,53744.9335708049,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ECA,Europe & Central Asia (excluding high income),29485.3210400604,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TEC,Europe & Central Asia (IDA & IBRD countries),38843.6274681562,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+EUU,European Union,65147.3636005644,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+FCV,"Fragility, Conflict, and Violence (FCV) situations",6890.9266194001,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+HPC,Heavily indebted poor countries (HIPC),3696.59550641642,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+,High income,69862.2161100514,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IBD,IBRD only,22024.2061027895,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IBT,IDA & IBRD total,17458.7411010823,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IDB,IDA blend,7879.09352741221,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IDX,IDA only,4965.65433960278,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IDA,IDA total,5967.42088624115,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LTE,Late-demographic dividend,29832.0285732077,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LCN,Latin America & Caribbean,22997.6894764743,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LAC,Latin America & Caribbean (excluding high income),22100.2610367684,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TLA,Latin America & the Caribbean (IDA & IBRD countries),22945.5527851292,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LDC,Least developed countries: UN classification,4692.11954877968,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LMY,Low & middle income,16306.7204855639,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+,Low income,2652.78645609275,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+,Lower middle income,10784.8821636643,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",16795.6718764286,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",11387.0908250663,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",11432.4350549969,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MIC,Middle income,18055.2018169833,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NAC,North America,87033.1293962544,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+OED,OECD members,64094.8421290066,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+OSS,Other small states,29927.8093707042,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PSS,Pacific island small states,8670.38900152022,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PST,Post-demographic dividend,71041.9659471061,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PRE,Pre-demographic dividend,5320.04205900124,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SST,Small states,28975.743367273,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SAS,South Asia,11489.1401737722,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TSA,South Asia (IDA & IBRD),11489.1401737722,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SSF,Sub-Saharan Africa,5615.61852587622,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SSA,Sub-Saharan Africa (excluding high income),5612.89639678538,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TSS,Sub-Saharan Africa (IDA & IBRD countries),5615.61852587623,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+,Upper middle income,25218.3056054939,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+WLD,World,25517.3952462676,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+AFG,Afghanistan,2250.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ALB,Albania,28170.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+DZA,Algeria,18240.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+AND,Andorra,80950.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+AGO,Angola,9840.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ATG,Antigua and Barbuda,34670.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ARG,Argentina,31920.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ARM,Armenia,24020.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ABW,Aruba,48900.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+AUS,Australia,69930.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+AUT,Austria,77010.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+AZE,Azerbaijan,25430.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BHS,"Bahamas, The",39610.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BHR,Bahrain,65500.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BGD,Bangladesh,10710.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BRB,Barbados,24840.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BLR,Belarus,34310.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BEL,Belgium,75620.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BLZ,Belize,14230.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BEN,Benin,4760.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BMU,Bermuda,122530.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BTN,Bhutan,18520.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BOL,Bolivia,12530.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BIH,Bosnia and Herzegovina,25810.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BWA,Botswana,19960.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BRA,Brazil,22670.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BRN,Brunei Darussalam,95420.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BGR,Bulgaria,42170.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BFA,Burkina Faso,2890.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+BDI,Burundi,1250.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CPV,Cabo Verde,12010.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+KHM,Cambodia,8390.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CMR,Cameroon,5700.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CAN,Canada,66820.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CYM,Cayman Islands,74470.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CAF,Central African Republic,1390.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TCD,Chad,2770.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CHL,Chile,35730.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CHN,China,29160.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+COL,Colombia,22250.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+COM,Comoros,4260.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+COD,"Congo, Dem. Rep.",1850.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+COG,"Congo, Rep.",6490.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CRI,Costa Rica,30760.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CIV,Cote d'Ivoire,7750.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+HRV,Croatia,50410.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CUW,Curacao,33330.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CYP,Cyprus,57390.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CZE,Czechia,57870.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+DNK,Denmark,85460.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+DJI,Djibouti,8660.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+DMA,Dominica,22130.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+DOM,Dominican Republic,26980.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ECU,Ecuador,16290.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+EGY,"Egypt, Arab Rep.",19330.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SLV,El Salvador,13140.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GNQ,Equatorial Guinea,14610.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ERI,Eritrea,1720.0,2011,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+EST,Estonia,51370.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SWZ,Eswatini,11390.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ETH,Ethiopia,3620.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+FRO,Faroe Islands,83480.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+FJI,Fiji,15360.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+FIN,Finland,66300.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+FRA,France,65110.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GAB,Gabon,21660.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GMB,"Gambia, The",3660.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GEO,Georgia,27570.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+DEU,Germany,78140.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GHA,Ghana,8080.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GRC,Greece,44310.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GRL,Greenland,40270.0,2007,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GRD,Grenada,20170.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GTM,Guatemala,15020.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GIN,Guinea,4730.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GNB,Guinea-Bissau,3320.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GUY,Guyana,80300.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+HTI,Haiti,3130.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+HND,Honduras,7270.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+HKG,"Hong Kong SAR, China",88500.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+HUN,Hungary,48630.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ISL,Iceland,83250.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IND,India,11600.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IDN,Indonesia,17190.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IRN,"Iran, Islamic Rep.",19660.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IRQ,Iraq,14290.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+IRL,Ireland,106310.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ISR,Israel,58870.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ITA,Italy,62870.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+JAM,Jamaica,13090.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+JPN,Japan,58920.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+JOR,Jordan,12440.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+KAZ,Kazakhstan,41090.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+KEN,Kenya,6910.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+KIR,Kiribati,6080.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+KOR,"Korea, Rep.",64210.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+XKX,Kosovo,19650.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+KWT,Kuwait,64040.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+KGZ,Kyrgyz Republic,9120.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LAO,Lao PDR,9800.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LVA,Latvia,45740.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LBN,Lebanon,11790.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LSO,Lesotho,3900.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LBR,Liberia,1840.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LBY,Libya,17150.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LTU,Lithuania,55010.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LUX,Luxembourg,106640.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MAC,"Macao SAR, China",125630.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MDG,Madagascar,1910.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MWI,Malawi,1880.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MYS,Malaysia,40070.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MDV,Maldives,25600.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MLI,Mali,3400.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MLT,Malta,64900.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MHL,Marshall Islands,10590.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MRT,Mauritania,7640.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MUS,Mauritius,37000.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MEX,Mexico,25070.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+FSM,"Micronesia, Fed. Sts.",5080.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MDA,Moldova,19990.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MNG,Mongolia,18460.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MNE,Montenegro,35700.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MAR,Morocco,10960.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MOZ,Mozambique,1540.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MMR,Myanmar,5890.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NAM,Namibia,11260.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NRU,Naoero,20200.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NPL,Nepal,6250.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NLD,Netherlands,85480.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NZL,New Zealand,53600.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NIC,Nicaragua,8780.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NER,Niger,2150.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NGA,Nigeria,9230.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+MKD,North Macedonia,26680.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+NOR,Norway,107770.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+OMN,Oman,39390.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PAK,Pakistan,6430.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PLW,Palau,23480.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PAN,Panama,41770.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PNG,Papua New Guinea,4840.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PRY,Paraguay,19390.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PER,Peru,17540.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PHL,Philippines,14460.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+POL,Poland,52290.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PRT,Portugal,52240.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PRI,Puerto Rico (US),35330.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+QAT,Qatar,126290.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ROU,Romania,49550.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+RUS,Russian Federation,49220.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+RWA,Rwanda,4070.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+WSM,Samoa,9300.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SMR,San Marino,71920.0,2023,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+STP,Sao Tome and Principe,6920.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SAU,Saudi Arabia,74400.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SEN,Senegal,5100.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SRB,Serbia,31780.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SYC,Seychelles,34930.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SLE,Sierra Leone,3690.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SGP,Singapore,135750.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SXM,Sint Maarten (Dutch part),52060.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SVK,Slovak Republic,47920.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SVN,Slovenia,58880.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SLB,Solomon Islands,2790.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SOM,"Somalia, Fed. Rep.",1640.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ZAF,South Africa,15600.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SSD,South Sudan,1010.0,2015,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ESP,Spain,59830.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LKA,Sri Lanka,16750.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+KNA,St. Kitts and Nevis,36430.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+LCA,St. Lucia,26180.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+VCT,St. Vincent and the Grenadines,22340.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SDN,Sudan,2140.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SUR,Suriname,21000.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SWE,Sweden,76090.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+CHE,Switzerland,101690.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+SYR,Syrian Arab Republic,4740.0,2022,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TJK,Tajikistan,8240.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TZA,Tanzania,4370.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+THA,Thailand,25570.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TLS,Timor-Leste,5120.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TGO,Togo,4090.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TON,Tonga,9240.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TTO,Trinidad and Tobago,36080.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TUN,Tunisia,14870.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TUR,Turkiye,44630.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TKM,Turkmenistan,22830.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TCA,Turks and Caicos Islands,37500.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+TUV,Tuvalu,11000.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+UGA,Uganda,3410.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+UKR,Ukraine,18750.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ARE,United Arab Emirates,81640.0,2024,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+GBR,United Kingdom,64210.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+USA,United States,89490.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+URY,Uruguay,36330.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+UZB,Uzbekistan,13640.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+VUT,Vanuatu,4970.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+VEN,"Venezuela, RB",20840.0,2011,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+VNM,Viet Nam,17580.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+PSE,West Bank and Gaza,5310.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+YEM,"Yemen, Rep.",3020.0,2013,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ZMB,Zambia,3990.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+ZWE,Zimbabwe,6390.0,2025,NY.GNP.PCAP.PP.CD,gni_per_capita_ppp
+AFG,Afghanistan,13.2320571626481,2024,PA.NUS.PPP,ppp_conversion_factor
+ALB,Albania,39.9805375942293,2025,PA.NUS.PPP,ppp_conversion_factor
+DZA,Algeria,42.8460510517715,2025,PA.NUS.PPP,ppp_conversion_factor
+AND,Andorra,0.603848577368125,2025,PA.NUS.PPP,ppp_conversion_factor
+AGO,Angola,322.965962233887,2025,PA.NUS.PPP,ppp_conversion_factor
+ATG,Antigua and Barbuda,1.87014584555665,2025,PA.NUS.PPP,ppp_conversion_factor
+ARG,Argentina,567.297421343424,2025,PA.NUS.PPP,ppp_conversion_factor
+ARM,Armenia,148.11782018569,2025,PA.NUS.PPP,ppp_conversion_factor
+ABW,Aruba,1.3358003334369,2024,PA.NUS.PPP,ppp_conversion_factor
+AUS,Australia,1.398943,2025,PA.NUS.PPP,ppp_conversion_factor
+AUT,Austria,0.725357,2025,PA.NUS.PPP,ppp_conversion_factor
+AZE,Azerbaijan,0.482459128195909,2025,PA.NUS.PPP,ppp_conversion_factor
+BHS,"Bahamas, The",0.956315655509349,2024,PA.NUS.PPP,ppp_conversion_factor
+BHR,Bahrain,0.162039933977081,2025,PA.NUS.PPP,ppp_conversion_factor
+BGD,Bangladesh,30.9160155190794,2025,PA.NUS.PPP,ppp_conversion_factor
+BRB,Barbados,2.19085217304192,2025,PA.NUS.PPP,ppp_conversion_factor
+BLR,Belarus,0.90876978092131,2025,PA.NUS.PPP,ppp_conversion_factor
+BEL,Belgium,0.719942,2025,PA.NUS.PPP,ppp_conversion_factor
+BLZ,Belize,1.05113051635175,2025,PA.NUS.PPP,ppp_conversion_factor
+BEN,Benin,200.336598367492,2025,PA.NUS.PPP,ppp_conversion_factor
+BMU,Bermuda,1.19812062185577,2024,PA.NUS.PPP,ppp_conversion_factor
+BTN,Bhutan,19.9848946493305,2025,PA.NUS.PPP,ppp_conversion_factor
+BOL,Bolivia,2.76324583616839,2025,PA.NUS.PPP,ppp_conversion_factor
+BIH,Bosnia and Herzegovina,0.697646964731518,2025,PA.NUS.PPP,ppp_conversion_factor
+BWA,Botswana,5.07409138676734,2025,PA.NUS.PPP,ppp_conversion_factor
+BRA,Brazil,2.55440835439356,2025,PA.NUS.PPP,ppp_conversion_factor
+VGB,British Virgin Islands,1.02022969722748,2017,PA.NUS.PPP,ppp_conversion_factor
+BRN,Brunei Darussalam,0.456019597784343,2025,PA.NUS.PPP,ppp_conversion_factor
+BGR,Bulgaria,0.405704596599949,2025,PA.NUS.PPP,ppp_conversion_factor
+BFA,Burkina Faso,217.410761840348,2025,PA.NUS.PPP,ppp_conversion_factor
+BDI,Burundi,999.612019047394,2025,PA.NUS.PPP,ppp_conversion_factor
+CPV,Cabo Verde,46.629436004152,2025,PA.NUS.PPP,ppp_conversion_factor
+KHM,Cambodia,1349.49224235827,2025,PA.NUS.PPP,ppp_conversion_factor
+CMR,Cameroon,198.309241557697,2025,PA.NUS.PPP,ppp_conversion_factor
+CAN,Canada,1.166683,2025,PA.NUS.PPP,ppp_conversion_factor
+CYM,Cayman Islands,0.94261799236714,2024,PA.NUS.PPP,ppp_conversion_factor
+CAF,Central African Republic,246.31590787299,2025,PA.NUS.PPP,ppp_conversion_factor
+TCD,Chad,204.953276226313,2025,PA.NUS.PPP,ppp_conversion_factor
+CHL,Chile,453.188563,2025,PA.NUS.PPP,ppp_conversion_factor
+CHN,China,3.39768588417447,2025,PA.NUS.PPP,ppp_conversion_factor
+COL,Colombia,1532.719303,2025,PA.NUS.PPP,ppp_conversion_factor
+COM,Comoros,211.662236779844,2025,PA.NUS.PPP,ppp_conversion_factor
+COD,"Congo, Dem. Rep.",1124.85430376458,2025,PA.NUS.PPP,ppp_conversion_factor
+COG,"Congo, Rep.",201.890946598546,2025,PA.NUS.PPP,ppp_conversion_factor
+CRI,Costa Rica,297.351768,2025,PA.NUS.PPP,ppp_conversion_factor
+CIV,Cote d'Ivoire,216.221332210196,2025,PA.NUS.PPP,ppp_conversion_factor
+HRV,Croatia,0.470813052018898,2025,PA.NUS.PPP,ppp_conversion_factor
+CUB,Cuba,0.321938711455632,2011,PA.NUS.PPP,ppp_conversion_factor
+CUW,Curacao,1.24831756717631,2024,PA.NUS.PPP,ppp_conversion_factor
+CYP,Cyprus,0.572620273384741,2025,PA.NUS.PPP,ppp_conversion_factor
+CZE,Czechia,12.993503,2025,PA.NUS.PPP,ppp_conversion_factor
+DNK,Denmark,6.124666,2025,PA.NUS.PPP,ppp_conversion_factor
+DJI,Djibouti,82.1238304290602,2025,PA.NUS.PPP,ppp_conversion_factor
+DMA,Dominica,1.30631128267932,2025,PA.NUS.PPP,ppp_conversion_factor
+DOM,Dominican Republic,23.8682512750234,2025,PA.NUS.PPP,ppp_conversion_factor
+ECU,Ecuador,0.425220703426529,2025,PA.NUS.PPP,ppp_conversion_factor
+EGY,"Egypt, Arab Rep.",7.58370974796763,2025,PA.NUS.PPP,ppp_conversion_factor
+SLV,El Salvador,0.408953489712557,2025,PA.NUS.PPP,ppp_conversion_factor
+GNQ,Equatorial Guinea,238.615174467719,2025,PA.NUS.PPP,ppp_conversion_factor
+ERI,Eritrea,4.93847894668579,2021,PA.NUS.PPP,ppp_conversion_factor
+EST,Estonia,0.584555,2025,PA.NUS.PPP,ppp_conversion_factor
+SWZ,Eswatini,5.86563643135325,2025,PA.NUS.PPP,ppp_conversion_factor
+ETH,Ethiopia,30.7650224136466,2025,PA.NUS.PPP,ppp_conversion_factor
+FRO,Faroe Islands,6.22980312304618,2024,PA.NUS.PPP,ppp_conversion_factor
+FJI,Fiji,0.934666867351328,2025,PA.NUS.PPP,ppp_conversion_factor
+FIN,Finland,0.754195,2025,PA.NUS.PPP,ppp_conversion_factor
+FRA,France,0.677618,2025,PA.NUS.PPP,ppp_conversion_factor
+GAB,Gabon,216.420044727798,2025,PA.NUS.PPP,ppp_conversion_factor
+GMB,"Gambia, The",17.7935316169312,2025,PA.NUS.PPP,ppp_conversion_factor
+GEO,Georgia,0.903514180711349,2025,PA.NUS.PPP,ppp_conversion_factor
+DEU,Germany,0.709983,2025,PA.NUS.PPP,ppp_conversion_factor
+GHA,Ghana,4.75008975177416,2025,PA.NUS.PPP,ppp_conversion_factor
+GRC,Greece,0.526872,2025,PA.NUS.PPP,ppp_conversion_factor
+GRL,Greenland,5.10788380262313,2023,PA.NUS.PPP,ppp_conversion_factor
+GRD,Grenada,1.53137011170231,2025,PA.NUS.PPP,ppp_conversion_factor
+GTM,Guatemala,3.33451157924276,2025,PA.NUS.PPP,ppp_conversion_factor
+GIN,Guinea,3286.09262410062,2025,PA.NUS.PPP,ppp_conversion_factor
+GNB,Guinea-Bissau,198.582744438309,2025,PA.NUS.PPP,ppp_conversion_factor
+GUY,Guyana,69.0331367456556,2025,PA.NUS.PPP,ppp_conversion_factor
+HTI,Haiti,112.359715746475,2025,PA.NUS.PPP,ppp_conversion_factor
+HND,Honduras,11.8640844280338,2025,PA.NUS.PPP,ppp_conversion_factor
+HKG,"Hong Kong SAR, China",5.52457295433365,2025,PA.NUS.PPP,ppp_conversion_factor
+HUN,Hungary,183.57556,2025,PA.NUS.PPP,ppp_conversion_factor
+ISL,Iceland,151.367985,2025,PA.NUS.PPP,ppp_conversion_factor
+IND,India,20.0886288014602,2025,PA.NUS.PPP,ppp_conversion_factor
+IDN,Indonesia,4720.99750025346,2025,PA.NUS.PPP,ppp_conversion_factor
+IRN,"Iran, Islamic Rep.",147937.809998602,2025,PA.NUS.PPP,ppp_conversion_factor
+IRQ,Iraq,492.933552332882,2025,PA.NUS.PPP,ppp_conversion_factor
+IRL,Ireland,0.750891,2025,PA.NUS.PPP,ppp_conversion_factor
+ISR,Israel,3.487723,2025,PA.NUS.PPP,ppp_conversion_factor
+ITA,Italy,0.610275,2025,PA.NUS.PPP,ppp_conversion_factor
+JAM,Jamaica,95.7950373528488,2025,PA.NUS.PPP,ppp_conversion_factor
+JPN,Japan,97.08005,2025,PA.NUS.PPP,ppp_conversion_factor
+JOR,Jordan,0.300588436411238,2025,PA.NUS.PPP,ppp_conversion_factor
+KAZ,Kazakhstan,172.827127700445,2025,PA.NUS.PPP,ppp_conversion_factor
+KEN,Kenya,43.5471478663385,2025,PA.NUS.PPP,ppp_conversion_factor
+KIR,Kiribati,1.00874671689262,2025,PA.NUS.PPP,ppp_conversion_factor
+KOR,"Korea, Rep.",816.329274,2025,PA.NUS.PPP,ppp_conversion_factor
+XKX,Kosovo,0.362904088534196,2025,PA.NUS.PPP,ppp_conversion_factor
+KWT,Kuwait,0.175361574871678,2025,PA.NUS.PPP,ppp_conversion_factor
+KGZ,Kyrgyz Republic,29.1935664341276,2025,PA.NUS.PPP,ppp_conversion_factor
+LAO,Lao PDR,4577.46196269632,2025,PA.NUS.PPP,ppp_conversion_factor
+LVA,Latvia,0.504702,2025,PA.NUS.PPP,ppp_conversion_factor
+LBN,Lebanon,33594.2483818204,2024,PA.NUS.PPP,ppp_conversion_factor
+LSO,Lesotho,6.11792216885233,2025,PA.NUS.PPP,ppp_conversion_factor
+LBR,Liberia,0.462031881161655,2025,PA.NUS.PPP,ppp_conversion_factor
+LBY,Libya,2.07074496071786,2025,PA.NUS.PPP,ppp_conversion_factor
+LTU,Lithuania,0.513169,2025,PA.NUS.PPP,ppp_conversion_factor
+LUX,Luxembourg,0.832451,2025,PA.NUS.PPP,ppp_conversion_factor
+MAC,"Macao SAR, China",4.44773830276597,2025,PA.NUS.PPP,ppp_conversion_factor
+MDG,Madagascar,1390.29172218468,2025,PA.NUS.PPP,ppp_conversion_factor
+MWI,Malawi,619.005548775964,2025,PA.NUS.PPP,ppp_conversion_factor
+MYS,Malaysia,1.35504364404393,2025,PA.NUS.PPP,ppp_conversion_factor
+MDV,Maldives,7.88991987219358,2025,PA.NUS.PPP,ppp_conversion_factor
+MLI,Mali,198.243965775836,2025,PA.NUS.PPP,ppp_conversion_factor
+MLT,Malta,0.58711979275282,2025,PA.NUS.PPP,ppp_conversion_factor
+MHL,Marshall Islands,0.946982695755452,2025,PA.NUS.PPP,ppp_conversion_factor
+MRT,Mauritania,11.391685569891,2025,PA.NUS.PPP,ppp_conversion_factor
+MUS,Mauritius,17.7493221711606,2025,PA.NUS.PPP,ppp_conversion_factor
+MEX,Mexico,10.328951,2025,PA.NUS.PPP,ppp_conversion_factor
+FSM,"Micronesia, Fed. Sts.",0.95865080658499,2025,PA.NUS.PPP,ppp_conversion_factor
+MDA,Moldova,7.48976511532315,2025,PA.NUS.PPP,ppp_conversion_factor
+MNG,Mongolia,1211.65358016366,2025,PA.NUS.PPP,ppp_conversion_factor
+MNE,Montenegro,0.370171163809184,2025,PA.NUS.PPP,ppp_conversion_factor
+MAR,Morocco,3.93179684727296,2025,PA.NUS.PPP,ppp_conversion_factor
+MOZ,Mozambique,23.6620035302763,2025,PA.NUS.PPP,ppp_conversion_factor
+MMR,Myanmar,520.106449561224,2025,PA.NUS.PPP,ppp_conversion_factor
+NAM,Namibia,7.27733758379859,2025,PA.NUS.PPP,ppp_conversion_factor
+NRU,Naoero,1.59287093272538,2025,PA.NUS.PPP,ppp_conversion_factor
+NPL,Nepal,33.8982001034302,2025,PA.NUS.PPP,ppp_conversion_factor
+NLD,Netherlands,0.746769,2025,PA.NUS.PPP,ppp_conversion_factor
+NZL,New Zealand,1.472957,2025,PA.NUS.PPP,ppp_conversion_factor
+NIC,Nicaragua,12.5185500987327,2025,PA.NUS.PPP,ppp_conversion_factor
+NER,Niger,207.234045559658,2025,PA.NUS.PPP,ppp_conversion_factor
+NGA,Nigeria,195.022548515709,2025,PA.NUS.PPP,ppp_conversion_factor
+MKD,North Macedonia,20.453219828119,2025,PA.NUS.PPP,ppp_conversion_factor
+NOR,Norway,9.451661,2025,PA.NUS.PPP,ppp_conversion_factor
+OMN,Oman,0.181339214175172,2025,PA.NUS.PPP,ppp_conversion_factor
+PAK,Pakistan,67.8368115155746,2025,PA.NUS.PPP,ppp_conversion_factor
+PLW,Palau,0.847328995677767,2025,PA.NUS.PPP,ppp_conversion_factor
+PAN,Panama,0.45076892365416,2025,PA.NUS.PPP,ppp_conversion_factor
+PNG,Papua New Guinea,2.38719956855142,2025,PA.NUS.PPP,ppp_conversion_factor
+PRY,Paraguay,2627.11785121353,2025,PA.NUS.PPP,ppp_conversion_factor
+PER,Peru,1.83592285276037,2025,PA.NUS.PPP,ppp_conversion_factor
+PHL,Philippines,19.069580238078,2025,PA.NUS.PPP,ppp_conversion_factor
+POL,Poland,1.969559,2025,PA.NUS.PPP,ppp_conversion_factor
+PRT,Portugal,0.534218,2025,PA.NUS.PPP,ppp_conversion_factor
+PRI,Puerto Rico (US),0.778230137047568,2025,PA.NUS.PPP,ppp_conversion_factor
+QAT,Qatar,2.0482980288714,2025,PA.NUS.PPP,ppp_conversion_factor
+ROU,Romania,1.97967891250975,2025,PA.NUS.PPP,ppp_conversion_factor
+RUS,Russian Federation,29.6122633846497,2025,PA.NUS.PPP,ppp_conversion_factor
+RWA,Rwanda,385.463038224109,2025,PA.NUS.PPP,ppp_conversion_factor
+WSM,Samoa,1.75413819197732,2025,PA.NUS.PPP,ppp_conversion_factor
+SMR,San Marino,0.702590229204567,2023,PA.NUS.PPP,ppp_conversion_factor
+STP,Sao Tome and Principe,13.8672557039219,2025,PA.NUS.PPP,ppp_conversion_factor
+SAU,Saudi Arabia,1.75530234452142,2025,PA.NUS.PPP,ppp_conversion_factor
+SEN,Senegal,208.211053506783,2025,PA.NUS.PPP,ppp_conversion_factor
+SRB,Serbia,46.7970682889855,2025,PA.NUS.PPP,ppp_conversion_factor
+SYC,Seychelles,7.98797394952878,2025,PA.NUS.PPP,ppp_conversion_factor
+SLE,Sierra Leone,5.15883670629659,2025,PA.NUS.PPP,ppp_conversion_factor
+SGP,Singapore,0.790885710223008,2025,PA.NUS.PPP,ppp_conversion_factor
+SXM,Sint Maarten (Dutch part),1.36183701233079,2025,PA.NUS.PPP,ppp_conversion_factor
+SVK,Slovak Republic,0.512288,2025,PA.NUS.PPP,ppp_conversion_factor
+SVN,Slovenia,0.558308,2025,PA.NUS.PPP,ppp_conversion_factor
+SLB,Solomon Islands,6.23162133063873,2025,PA.NUS.PPP,ppp_conversion_factor
+SOM,"Somalia, Fed. Rep.",12115.8880855469,2025,PA.NUS.PPP,ppp_conversion_factor
+ZAF,South Africa,7.42029658394341,2025,PA.NUS.PPP,ppp_conversion_factor
+SSD,South Sudan,126.743049621582,2021,PA.NUS.PPP,ppp_conversion_factor
+ESP,Spain,0.570991,2025,PA.NUS.PPP,ppp_conversion_factor
+LKA,Sri Lanka,88.2137716979226,2025,PA.NUS.PPP,ppp_conversion_factor
+KNA,St. Kitts and Nevis,1.85174655680503,2025,PA.NUS.PPP,ppp_conversion_factor
+LCA,St. Lucia,1.38850270829587,2025,PA.NUS.PPP,ppp_conversion_factor
+VCT,St. Vincent and the Grenadines,1.48761704067186,2025,PA.NUS.PPP,ppp_conversion_factor
+SDN,Sudan,1175.58773572252,2025,PA.NUS.PPP,ppp_conversion_factor
+SUR,Suriname,11.6290001939516,2025,PA.NUS.PPP,ppp_conversion_factor
+SWE,Sweden,8.548493,2025,PA.NUS.PPP,ppp_conversion_factor
+CHE,Switzerland,0.930746,2025,PA.NUS.PPP,ppp_conversion_factor
+SYR,Syrian Arab Republic,807.95702765744,2022,PA.NUS.PPP,ppp_conversion_factor
+TJK,Tajikistan,2.76890578758637,2025,PA.NUS.PPP,ppp_conversion_factor
+TZA,Tanzania,749.533488393139,2025,PA.NUS.PPP,ppp_conversion_factor
+THA,Thailand,10.0922556843405,2025,PA.NUS.PPP,ppp_conversion_factor
+TLS,Timor-Leste,0.278816251223677,2025,PA.NUS.PPP,ppp_conversion_factor
+TGO,Togo,197.415755247599,2025,PA.NUS.PPP,ppp_conversion_factor
+TON,Tonga,1.80792099963135,2025,PA.NUS.PPP,ppp_conversion_factor
+TTO,Trinidad and Tobago,3.44833404244324,2025,PA.NUS.PPP,ppp_conversion_factor
+TUN,Tunisia,0.916013551631524,2025,PA.NUS.PPP,ppp_conversion_factor
+TUR,Turkiye,16.203626,2025,PA.NUS.PPP,ppp_conversion_factor
+TKM,Turkmenistan,1.57315223779675,2025,PA.NUS.PPP,ppp_conversion_factor
+TCA,Turks and Caicos Islands,0.986773622391009,2024,PA.NUS.PPP,ppp_conversion_factor
+TUV,Tuvalu,1.38717699395366,2025,PA.NUS.PPP,ppp_conversion_factor
+UGA,Uganda,1271.51526728309,2025,PA.NUS.PPP,ppp_conversion_factor
+UKR,Ukraine,12.9353983614283,2025,PA.NUS.PPP,ppp_conversion_factor
+ARE,United Arab Emirates,2.32695589646038,2024,PA.NUS.PPP,ppp_conversion_factor
+GBR,United Kingdom,0.677133,2025,PA.NUS.PPP,ppp_conversion_factor
+USA,United States,1.0,2025,PA.NUS.PPP,ppp_conversion_factor
+URY,Uruguay,27.108346862201,2025,PA.NUS.PPP,ppp_conversion_factor
+UZB,Uzbekistan,3670.12629350113,2025,PA.NUS.PPP,ppp_conversion_factor
+VUT,Vanuatu,107.389043283146,2025,PA.NUS.PPP,ppp_conversion_factor
+VEN,"Venezuela, RB",2.68098258972168e-11,2011,PA.NUS.PPP,ppp_conversion_factor
+VNM,Viet Nam,6990.87070514029,2025,PA.NUS.PPP,ppp_conversion_factor
+VIR,Virgin Islands (U.S.),0.890243717259396,2022,PA.NUS.PPP,ppp_conversion_factor
+PSE,West Bank and Gaza,0.63425809329856,2025,PA.NUS.PPP,ppp_conversion_factor
+YEM,"Yemen, Rep.",93.6313171386719,2013,PA.NUS.PPP,ppp_conversion_factor
+ZMB,Zambia,7.56139268212565,2025,PA.NUS.PPP,ppp_conversion_factor
+ZWE,Zimbabwe,14.8477864567247,2025,PA.NUS.PPP,ppp_conversion_factor
+EMU,Euro area,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+AFG,Afghanistan,76.8135364354897,2020,PA.NUS.FCRF,official_exchange_rate
+ALB,Albania,86.8033333333333,2025,PA.NUS.FCRF,official_exchange_rate
+DZA,Algeria,131.605925,2025,PA.NUS.FCRF,official_exchange_rate
+ASM,American Samoa,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+AND,Andorra,0.887144250370587,2025,PA.NUS.FCRF,official_exchange_rate
+AGO,Angola,911.99303781631,2025,PA.NUS.FCRF,official_exchange_rate
+ATG,Antigua and Barbuda,2.7,2025,PA.NUS.FCRF,official_exchange_rate
+ARG,Argentina,1240.85125,2025,PA.NUS.FCRF,official_exchange_rate
+ARM,Armenia,387.010152166483,2025,PA.NUS.FCRF,official_exchange_rate
+ABW,Aruba,1.79,2025,PA.NUS.FCRF,official_exchange_rate
+AUS,Australia,1.5519978866485,2025,PA.NUS.FCRF,official_exchange_rate
+AUT,Austria,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+AZE,Azerbaijan,1.7,2025,PA.NUS.FCRF,official_exchange_rate
+BHS,"Bahamas, The",1.0,2025,PA.NUS.FCRF,official_exchange_rate
+BHR,Bahrain,0.376,2025,PA.NUS.FCRF,official_exchange_rate
+BGD,Bangladesh,121.920836605034,2025,PA.NUS.FCRF,official_exchange_rate
+BRB,Barbados,2.0,2025,PA.NUS.FCRF,official_exchange_rate
+BLR,Belarus,3.069175,2025,PA.NUS.FCRF,official_exchange_rate
+BEL,Belgium,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+BLZ,Belize,2.0,2025,PA.NUS.FCRF,official_exchange_rate
+BEN,Benin,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+BMU,Bermuda,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+BTN,Bhutan,87.1584483507393,2025,PA.NUS.FCRF,official_exchange_rate
+BOL,Bolivia,6.91,2025,PA.NUS.FCRF,official_exchange_rate
+BIH,Bosnia and Herzegovina,1.73592901689708,2025,PA.NUS.FCRF,official_exchange_rate
+BWA,Botswana,13.5023833333333,2025,PA.NUS.FCRF,official_exchange_rate
+BRA,Brazil,5.58728623856661,2025,PA.NUS.FCRF,official_exchange_rate
+BRN,Brunei Darussalam,1.307595108858,2025,PA.NUS.FCRF,official_exchange_rate
+BGR,Bulgaria,1.73519166666666,2025,PA.NUS.FCRF,official_exchange_rate
+BFA,Burkina Faso,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+BDI,Burundi,2943.1375,2025,PA.NUS.FCRF,official_exchange_rate
+CPV,Cabo Verde,97.8631517010164,2025,PA.NUS.FCRF,official_exchange_rate
+KHM,Cambodia,4013.43310400665,2025,PA.NUS.FCRF,official_exchange_rate
+CMR,Cameroon,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+CAN,Canada,1.39810565893901,2025,PA.NUS.FCRF,official_exchange_rate
+CYM,Cayman Islands,0.83333,2025,PA.NUS.FCRF,official_exchange_rate
+CAF,Central African Republic,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+TCD,Chad,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+CHI,Channel Islands,0.759473957338607,2025,PA.NUS.FCRF,official_exchange_rate
+CHL,Chile,951.329454191033,2025,PA.NUS.FCRF,official_exchange_rate
+CHN,China,7.18984737402171,2025,PA.NUS.FCRF,official_exchange_rate
+COL,Colombia,4053.13583333333,2025,PA.NUS.FCRF,official_exchange_rate
+COM,Comoros,435.376187289972,2025,PA.NUS.FCRF,official_exchange_rate
+COD,"Congo, Dem. Rep.",2693.24060103248,2025,PA.NUS.FCRF,official_exchange_rate
+COG,"Congo, Rep.",581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+CRI,Costa Rica,503.496832373272,2025,PA.NUS.FCRF,official_exchange_rate
+CIV,Cote d'Ivoire,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+HRV,Croatia,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+CUB,Cuba,0.821999999,1974,PA.NUS.FCRF,official_exchange_rate
+CUW,Curacao,1.79,2025,PA.NUS.FCRF,official_exchange_rate
+CYP,Cyprus,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+CZE,Czechia,21.882,2025,PA.NUS.FCRF,official_exchange_rate
+DNK,Denmark,6.62182508333333,2025,PA.NUS.FCRF,official_exchange_rate
+DJI,Djibouti,177.721,2025,PA.NUS.FCRF,official_exchange_rate
+DMA,Dominica,2.7,2025,PA.NUS.FCRF,official_exchange_rate
+DOM,Dominican Republic,61.9865666666666,2025,PA.NUS.FCRF,official_exchange_rate
+ECU,Ecuador,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+EGY,"Egypt, Arab Rep.",49.2277558333333,2025,PA.NUS.FCRF,official_exchange_rate
+SLV,El Salvador,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+GNQ,Equatorial Guinea,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+ERI,Eritrea,15.075,2025,PA.NUS.FCRF,official_exchange_rate
+EST,Estonia,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+SWZ,Eswatini,17.8889209208377,2025,PA.NUS.FCRF,official_exchange_rate
+ETH,Ethiopia,82.6013363504764,2024,PA.NUS.FCRF,official_exchange_rate
+FRO,Faroe Islands,6.62182508333333,2025,PA.NUS.FCRF,official_exchange_rate
+FJI,Fiji,2.29903333333333,2025,PA.NUS.FCRF,official_exchange_rate
+FIN,Finland,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+FRA,France,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+PYF,French Polynesia,105.864431541947,2025,PA.NUS.FCRF,official_exchange_rate
+GAB,Gabon,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+GMB,"Gambia, The",71.2893818242692,2025,PA.NUS.FCRF,official_exchange_rate
+GEO,Georgia,2.74264166666666,2025,PA.NUS.FCRF,official_exchange_rate
+DEU,Germany,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+GHA,Ghana,12.556825,2025,PA.NUS.FCRF,official_exchange_rate
+GIB,Gibraltar,0.759473957338607,2025,PA.NUS.FCRF,official_exchange_rate
+GRC,Greece,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+GRL,Greenland,6.62182508333333,2025,PA.NUS.FCRF,official_exchange_rate
+GRD,Grenada,2.7,2025,PA.NUS.FCRF,official_exchange_rate
+GUM,Guam,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+GTM,Guatemala,7.68012458333333,2025,PA.NUS.FCRF,official_exchange_rate
+GIN,Guinea,9565.08218343833,2020,PA.NUS.FCRF,official_exchange_rate
+GNB,Guinea-Bissau,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+GUY,Guyana,208.5,2025,PA.NUS.FCRF,official_exchange_rate
+HTI,Haiti,130.626409210526,2025,PA.NUS.FCRF,official_exchange_rate
+HND,Honduras,25.9526748179551,2025,PA.NUS.FCRF,official_exchange_rate
+HKG,"Hong Kong SAR, China",7.79708333333333,2025,PA.NUS.FCRF,official_exchange_rate
+HUN,Hungary,353.14,2025,PA.NUS.FCRF,official_exchange_rate
+ISL,Iceland,128.44148705495,2025,PA.NUS.FCRF,official_exchange_rate
+IND,India,87.1584483507393,2025,PA.NUS.FCRF,official_exchange_rate
+IDN,Indonesia,16477.8651797835,2025,PA.NUS.FCRF,official_exchange_rate
+IRN,"Iran, Islamic Rep.",42000.0,2023,PA.NUS.FCRF,official_exchange_rate
+IRQ,Iraq,1300.0,2025,PA.NUS.FCRF,official_exchange_rate
+IRL,Ireland,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+IMN,Isle of Man,0.759473957338607,2025,PA.NUS.FCRF,official_exchange_rate
+ISR,Israel,3.45189166666666,2025,PA.NUS.FCRF,official_exchange_rate
+ITA,Italy,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+JAM,Jamaica,159.096428305752,2025,PA.NUS.FCRF,official_exchange_rate
+JPN,Japan,149.657926890951,2025,PA.NUS.FCRF,official_exchange_rate
+JOR,Jordan,0.71,2025,PA.NUS.FCRF,official_exchange_rate
+KAZ,Kazakhstan,521.035,2025,PA.NUS.FCRF,official_exchange_rate
+KEN,Kenya,129.302572099377,2025,PA.NUS.FCRF,official_exchange_rate
+KIR,Kiribati,1.5519978866485,2025,PA.NUS.FCRF,official_exchange_rate
+KOR,"Korea, Rep.",1422.44083333333,2025,PA.NUS.FCRF,official_exchange_rate
+XKX,Kosovo,0.887144250370587,2025,PA.NUS.FCRF,official_exchange_rate
+KWT,Kuwait,0.306454776364577,2025,PA.NUS.FCRF,official_exchange_rate
+KGZ,Kyrgyz Republic,87.3598319399642,2025,PA.NUS.FCRF,official_exchange_rate
+LAO,Lao PDR,20444.1366516587,2025,PA.NUS.FCRF,official_exchange_rate
+LVA,Latvia,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+LBN,Lebanon,89500.0,2025,PA.NUS.FCRF,official_exchange_rate
+LSO,Lesotho,17.8887489855833,2025,PA.NUS.FCRF,official_exchange_rate
+LBR,Liberia,191.306666666666,2024,PA.NUS.FCRF,official_exchange_rate
+LBY,Libya,5.30256666666666,2025,PA.NUS.FCRF,official_exchange_rate
+LIE,Liechtenstein,0.831355833333333,2025,PA.NUS.FCRF,official_exchange_rate
+LTU,Lithuania,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+LUX,Luxembourg,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+MAC,"Macao SAR, China",8.02981025,2025,PA.NUS.FCRF,official_exchange_rate
+MDG,Madagascar,4529.75125196404,2025,PA.NUS.FCRF,official_exchange_rate
+MWI,Malawi,1161.09436666666,2023,PA.NUS.FCRF,official_exchange_rate
+MYS,Malaysia,4.28442415048243,2025,PA.NUS.FCRF,official_exchange_rate
+MDV,Maldives,15.415677547363,2025,PA.NUS.FCRF,official_exchange_rate
+MLI,Mali,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+MLT,Malta,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+MHL,Marshall Islands,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+MRT,Mauritania,36.4891666666666,2023,PA.NUS.FCRF,official_exchange_rate
+MUS,Mauritius,45.9969666666666,2025,PA.NUS.FCRF,official_exchange_rate
+MEX,Mexico,19.2375083333333,2025,PA.NUS.FCRF,official_exchange_rate
+FSM,"Micronesia, Fed. Sts.",1.0,2025,PA.NUS.FCRF,official_exchange_rate
+MDA,Moldova,17.3778474404761,2025,PA.NUS.FCRF,official_exchange_rate
+MCO,Monaco,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+MNG,Mongolia,3545.14356555046,2025,PA.NUS.FCRF,official_exchange_rate
+MNE,Montenegro,0.887144250370587,2025,PA.NUS.FCRF,official_exchange_rate
+MAR,Morocco,9.35027697089946,2025,PA.NUS.FCRF,official_exchange_rate
+MOZ,Mozambique,63.905,2024,PA.NUS.FCRF,official_exchange_rate
+MMR,Myanmar,1381.61916666666,2020,PA.NUS.FCRF,official_exchange_rate
+NAM,Namibia,17.8887333333333,2025,PA.NUS.FCRF,official_exchange_rate
+NRU,Naoero,1.5519978866485,2025,PA.NUS.FCRF,official_exchange_rate
+NPL,Nepal,139.115437592695,2025,PA.NUS.FCRF,official_exchange_rate
+NLD,Netherlands,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+NCL,New Caledonia,105.864431541947,2025,PA.NUS.FCRF,official_exchange_rate
+NZL,New Zealand,1.72010833333333,2025,PA.NUS.FCRF,official_exchange_rate
+NIC,Nicaragua,36.6243,2025,PA.NUS.FCRF,official_exchange_rate
+NER,Niger,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+NGA,Nigeria,1518.38094813367,2025,PA.NUS.FCRF,official_exchange_rate
+MKD,North Macedonia,54.6549666666666,2025,PA.NUS.FCRF,official_exchange_rate
+MNP,Northern Mariana Islands,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+NOR,Norway,10.3958333333333,2025,PA.NUS.FCRF,official_exchange_rate
+OMN,Oman,0.3845,2025,PA.NUS.FCRF,official_exchange_rate
+PAK,Pakistan,281.143001173202,2025,PA.NUS.FCRF,official_exchange_rate
+PLW,Palau,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+PAN,Panama,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+PNG,Papua New Guinea,4.12272372720281,2025,PA.NUS.FCRF,official_exchange_rate
+PRY,Paraguay,7545.4467553741,2025,PA.NUS.FCRF,official_exchange_rate
+PER,Peru,3.56706380329909,2025,PA.NUS.FCRF,official_exchange_rate
+PHL,Philippines,57.5050971489714,2025,PA.NUS.FCRF,official_exchange_rate
+POL,Poland,3.76054166666666,2025,PA.NUS.FCRF,official_exchange_rate
+PRT,Portugal,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+PRI,Puerto Rico (US),1.0,2025,PA.NUS.FCRF,official_exchange_rate
+QAT,Qatar,3.64,2025,PA.NUS.FCRF,official_exchange_rate
+ROU,Romania,4.47053333333333,2025,PA.NUS.FCRF,official_exchange_rate
+RUS,Russian Federation,83.6525,2025,PA.NUS.FCRF,official_exchange_rate
+RWA,Rwanda,1428.47827558333,2025,PA.NUS.FCRF,official_exchange_rate
+WSM,Samoa,2.79150381915391,2025,PA.NUS.FCRF,official_exchange_rate
+SMR,San Marino,0.887144250370587,2025,PA.NUS.FCRF,official_exchange_rate
+STP,Sao Tome and Principe,21.7450517869566,2025,PA.NUS.FCRF,official_exchange_rate
+SAU,Saudi Arabia,3.75,2025,PA.NUS.FCRF,official_exchange_rate
+SEN,Senegal,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+SRB,Serbia,103.9754,2025,PA.NUS.FCRF,official_exchange_rate
+SYC,Seychelles,14.7254562696937,2025,PA.NUS.FCRF,official_exchange_rate
+SLE,Sierra Leone,21.3048751103817,2023,PA.NUS.FCRF,official_exchange_rate
+SGP,Singapore,1.30745,2025,PA.NUS.FCRF,official_exchange_rate
+SXM,Sint Maarten (Dutch part),1.79,2025,PA.NUS.FCRF,official_exchange_rate
+SVK,Slovak Republic,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+SVN,Slovenia,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+SLB,Solomon Islands,8.32684233252032,2025,PA.NUS.FCRF,official_exchange_rate
+SOM,"Somalia, Fed. Rep.",23097.9873219373,2017,PA.NUS.FCRF,official_exchange_rate
+ZAF,South Africa,17.8887489855833,2025,PA.NUS.FCRF,official_exchange_rate
+SSD,South Sudan,2163.10387269883,2024,PA.NUS.FCRF,official_exchange_rate
+ESP,Spain,0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+LKA,Sri Lanka,300.851958333333,2025,PA.NUS.FCRF,official_exchange_rate
+KNA,St. Kitts and Nevis,2.7,2025,PA.NUS.FCRF,official_exchange_rate
+LCA,St. Lucia,2.7,2025,PA.NUS.FCRF,official_exchange_rate
+MAF,St. Martin (French part),0.88496895841236,2025,PA.NUS.FCRF,official_exchange_rate
+VCT,St. Vincent and the Grenadines,2.7,2025,PA.NUS.FCRF,official_exchange_rate
+SDN,Sudan,546.75885,2022,PA.NUS.FCRF,official_exchange_rate
+SUR,Suriname,37.2601791666666,2025,PA.NUS.FCRF,official_exchange_rate
+SWE,Sweden,9.82070570950185,2025,PA.NUS.FCRF,official_exchange_rate
+CHE,Switzerland,0.831355833333333,2025,PA.NUS.FCRF,official_exchange_rate
+SYR,Syrian Arab Republic,2505.74691085873,2022,PA.NUS.FCRF,official_exchange_rate
+TJK,Tajikistan,10.0177083333333,2025,PA.NUS.FCRF,official_exchange_rate
+TZA,Tanzania,2597.90041666666,2024,PA.NUS.FCRF,official_exchange_rate
+THA,Thailand,32.882809252867,2025,PA.NUS.FCRF,official_exchange_rate
+TLS,Timor-Leste,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+TGO,Togo,581.928481040339,2025,PA.NUS.FCRF,official_exchange_rate
+TON,Tonga,2.41052686435725,2025,PA.NUS.FCRF,official_exchange_rate
+TTO,Trinidad and Tobago,6.74884660621026,2025,PA.NUS.FCRF,official_exchange_rate
+TUN,Tunisia,2.99736666666666,2025,PA.NUS.FCRF,official_exchange_rate
+TUR,Turkiye,39.4548130977982,2025,PA.NUS.FCRF,official_exchange_rate
+TKM,Turkmenistan,5200.0,2001,PA.NUS.FCRF,official_exchange_rate
+TCA,Turks and Caicos Islands,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+TUV,Tuvalu,1.5519978866485,2025,PA.NUS.FCRF,official_exchange_rate
+UGA,Uganda,3602.98994206813,2025,PA.NUS.FCRF,official_exchange_rate
+UKR,Ukraine,41.6890720433333,2025,PA.NUS.FCRF,official_exchange_rate
+ARE,United Arab Emirates,3.6725,2025,PA.NUS.FCRF,official_exchange_rate
+GBR,United Kingdom,0.759473957338607,2025,PA.NUS.FCRF,official_exchange_rate
+USA,United States,1.0,2025,PA.NUS.FCRF,official_exchange_rate
+URY,Uruguay,41.1909791666666,2025,PA.NUS.FCRF,official_exchange_rate
+UZB,Uzbekistan,12579.3943476702,2025,PA.NUS.FCRF,official_exchange_rate
+VUT,Vanuatu,120.324285714285,2025,PA.NUS.FCRF,official_exchange_rate
+VEN,"Venezuela, RB",9.975,2017,PA.NUS.FCRF,official_exchange_rate
+VNM,Viet Nam,24164.8858333333,2024,PA.NUS.FCRF,official_exchange_rate
+VIR,Virgin Islands (U.S.),1.0,2025,PA.NUS.FCRF,official_exchange_rate
+YEM,"Yemen, Rep.",1355.11637864823,2023,PA.NUS.FCRF,official_exchange_rate
+ZMB,Zambia,25.2756892021939,2025,PA.NUS.FCRF,official_exchange_rate
+ZWE,Zimbabwe,26.5961940841935,2025,PA.NUS.FCRF,official_exchange_rate
+AFE,Africa Eastern and Southern,4.27011140706666,2025,FP.CPI.TOTL.ZG,inflation_pct
+AFW,Africa Western and Central,1.65781767585277,2025,FP.CPI.TOTL.ZG,inflation_pct
+ARB,Arab World,1.76646490894206,2025,FP.CPI.TOTL.ZG,inflation_pct
+CSS,Caribbean small states,1.21577537737425,2025,FP.CPI.TOTL.ZG,inflation_pct
+CEB,Central Europe and the Baltics,3.81419531520146,2025,FP.CPI.TOTL.ZG,inflation_pct
+EAR,Early-demographic dividend,3.20550474112603,2025,FP.CPI.TOTL.ZG,inflation_pct
+EAS,East Asia & Pacific,1.9133344329508,2025,FP.CPI.TOTL.ZG,inflation_pct
+EAP,East Asia & Pacific (excluding high income),2.06264825470915,2025,FP.CPI.TOTL.ZG,inflation_pct
+TEA,East Asia & Pacific (IDA & IBRD countries),1.9133344329508,2025,FP.CPI.TOTL.ZG,inflation_pct
+EMU,Euro area,2.46705543774613,2025,FP.CPI.TOTL.ZG,inflation_pct
+ECS,Europe & Central Asia,3.74577316751945,2025,FP.CPI.TOTL.ZG,inflation_pct
+ECA,Europe & Central Asia (excluding high income),5.62208788068338,2025,FP.CPI.TOTL.ZG,inflation_pct
+TEC,Europe & Central Asia (IDA & IBRD countries),5.10146571652018,2025,FP.CPI.TOTL.ZG,inflation_pct
+EUU,European Union,2.46705543774613,2025,FP.CPI.TOTL.ZG,inflation_pct
+HPC,Heavily indebted poor countries (HIPC),3.40373458279055,2025,FP.CPI.TOTL.ZG,inflation_pct
+,High income,2.34898778499373,2025,FP.CPI.TOTL.ZG,inflation_pct
+IBD,IBRD only,3.68256369784336,2025,FP.CPI.TOTL.ZG,inflation_pct
+IBT,IDA & IBRD total,3.51074539609587,2025,FP.CPI.TOTL.ZG,inflation_pct
+IDB,IDA blend,2.40069559361747,2025,FP.CPI.TOTL.ZG,inflation_pct
+IDX,IDA only,3.55071913108936,2025,FP.CPI.TOTL.ZG,inflation_pct
+IDA,IDA total,3.36462189317825,2025,FP.CPI.TOTL.ZG,inflation_pct
+LTE,Late-demographic dividend,3.74577316751945,2025,FP.CPI.TOTL.ZG,inflation_pct
+LCN,Latin America & Caribbean,2.30758626602756,2025,FP.CPI.TOTL.ZG,inflation_pct
+LAC,Latin America & Caribbean (excluding high income),3.1702688841681,2025,FP.CPI.TOTL.ZG,inflation_pct
+TLA,Latin America & the Caribbean (IDA & IBRD countries),2.30758626602756,2025,FP.CPI.TOTL.ZG,inflation_pct
+LDC,Least developed countries: UN classification,3.36462189317825,2025,FP.CPI.TOTL.ZG,inflation_pct
+LMY,Low & middle income,3.54555214890893,2025,FP.CPI.TOTL.ZG,inflation_pct
+,Low income,4.3684695014615,2025,FP.CPI.TOTL.ZG,inflation_pct
+,Lower middle income,3.54630163142885,2025,FP.CPI.TOTL.ZG,inflation_pct
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",2.08420853585036,2025,FP.CPI.TOTL.ZG,inflation_pct
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",2.69360940778798,2025,FP.CPI.TOTL.ZG,inflation_pct
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",1.84166666666702,2025,FP.CPI.TOTL.ZG,inflation_pct
+MIC,Middle income,3.45723998944321,2025,FP.CPI.TOTL.ZG,inflation_pct
+NAC,North America,2.6655545188319,2024,FP.CPI.TOTL.ZG,inflation_pct
+OED,OECD members,2.8397963180572,2025,FP.CPI.TOTL.ZG,inflation_pct
+OSS,Other small states,2.8063054227931,2025,FP.CPI.TOTL.ZG,inflation_pct
+PSS,Pacific island small states,1.43420860934971,2025,FP.CPI.TOTL.ZG,inflation_pct
+PST,Post-demographic dividend,2.37284807226549,2025,FP.CPI.TOTL.ZG,inflation_pct
+PRE,Pre-demographic dividend,3.27823540357584,2025,FP.CPI.TOTL.ZG,inflation_pct
+SST,Small states,2.25357866335894,2025,FP.CPI.TOTL.ZG,inflation_pct
+SAS,South Asia,3.10423966443212,2025,FP.CPI.TOTL.ZG,inflation_pct
+TSA,South Asia (IDA & IBRD),3.10423966443212,2025,FP.CPI.TOTL.ZG,inflation_pct
+SSF,Sub-Saharan Africa,3.40373458279055,2025,FP.CPI.TOTL.ZG,inflation_pct
+SSA,Sub-Saharan Africa (excluding high income),3.45723998944321,2025,FP.CPI.TOTL.ZG,inflation_pct
+TSS,Sub-Saharan Africa (IDA & IBRD countries),3.40373458279055,2025,FP.CPI.TOTL.ZG,inflation_pct
+,Upper middle income,3.20550474112603,2025,FP.CPI.TOTL.ZG,inflation_pct
+WLD,World,3.0414132155654,2025,FP.CPI.TOTL.ZG,inflation_pct
+AFG,Afghanistan,-6.60118564073726,2024,FP.CPI.TOTL.ZG,inflation_pct
+ALB,Albania,2.14618551167388,2025,FP.CPI.TOTL.ZG,inflation_pct
+DZA,Algeria,1.41835151429016,2025,FP.CPI.TOTL.ZG,inflation_pct
+AGO,Angola,20.1620197572331,2025,FP.CPI.TOTL.ZG,inflation_pct
+ATG,Antigua and Barbuda,1.36873527521954,2025,FP.CPI.TOTL.ZG,inflation_pct
+ARG,Argentina,219.883929014578,2024,FP.CPI.TOTL.ZG,inflation_pct
+ARM,Armenia,3.30693341072904,2025,FP.CPI.TOTL.ZG,inflation_pct
+ABW,Aruba,4.25746204335427,2019,FP.CPI.TOTL.ZG,inflation_pct
+AUS,Australia,2.87403791660173,2025,FP.CPI.TOTL.ZG,inflation_pct
+AUT,Austria,3.52719439956928,2025,FP.CPI.TOTL.ZG,inflation_pct
+AZE,Azerbaijan,5.62208788068338,2025,FP.CPI.TOTL.ZG,inflation_pct
+BHS,"Bahamas, The",0.409162489083286,2024,FP.CPI.TOTL.ZG,inflation_pct
+BHR,Bahrain,-0.137708855447902,2025,FP.CPI.TOTL.ZG,inflation_pct
+BGD,Bangladesh,8.7687628116114,2025,FP.CPI.TOTL.ZG,inflation_pct
+BRB,Barbados,0.846576563196289,2025,FP.CPI.TOTL.ZG,inflation_pct
+BLR,Belarus,6.59877945951182,2025,FP.CPI.TOTL.ZG,inflation_pct
+BEL,Belgium,2.46705543774613,2025,FP.CPI.TOTL.ZG,inflation_pct
+BLZ,Belize,1.06281547952896,2025,FP.CPI.TOTL.ZG,inflation_pct
+BEN,Benin,1.10155247902978,2025,FP.CPI.TOTL.ZG,inflation_pct
+BTN,Bhutan,3.55513663074987,2025,FP.CPI.TOTL.ZG,inflation_pct
+BOL,Bolivia,19.517120804733,2025,FP.CPI.TOTL.ZG,inflation_pct
+BIH,Bosnia and Herzegovina,6.1059011284828,2023,FP.CPI.TOTL.ZG,inflation_pct
+BWA,Botswana,2.6597506179431,2025,FP.CPI.TOTL.ZG,inflation_pct
+BRA,Brazil,5.01675279604836,2025,FP.CPI.TOTL.ZG,inflation_pct
+BRN,Brunei Darussalam,-0.302994414446762,2025,FP.CPI.TOTL.ZG,inflation_pct
+BGR,Bulgaria,4.58084355235697,2025,FP.CPI.TOTL.ZG,inflation_pct
+BFA,Burkina Faso,-0.586235316330579,2025,FP.CPI.TOTL.ZG,inflation_pct
+BDI,Burundi,34.1339985744832,2025,FP.CPI.TOTL.ZG,inflation_pct
+CPV,Cabo Verde,2.34333897365163,2025,FP.CPI.TOTL.ZG,inflation_pct
+KHM,Cambodia,2.35127105896507,2025,FP.CPI.TOTL.ZG,inflation_pct
+CMR,Cameroon,3.40373458279055,2025,FP.CPI.TOTL.ZG,inflation_pct
+CAN,Canada,2.07232411149103,2025,FP.CPI.TOTL.ZG,inflation_pct
+CYM,Cayman Islands,-0.62525835861814,2016,FP.CPI.TOTL.ZG,inflation_pct
+CAF,Central African Republic,1.00198012768088,2025,FP.CPI.TOTL.ZG,inflation_pct
+TCD,Chad,-3.9119812440659,2025,FP.CPI.TOTL.ZG,inflation_pct
+CHL,Chile,4.21293601694293,2025,FP.CPI.TOTL.ZG,inflation_pct
+CHN,China,0.0595646916565403,2025,FP.CPI.TOTL.ZG,inflation_pct
+COL,Colombia,5.14222911946201,2025,FP.CPI.TOTL.ZG,inflation_pct
+COM,Comoros,3.24909332306433,2025,FP.CPI.TOTL.ZG,inflation_pct
+COD,"Congo, Dem. Rep.",2.88585107289988,2016,FP.CPI.TOTL.ZG,inflation_pct
+COG,"Congo, Rep.",2.40069559361747,2025,FP.CPI.TOTL.ZG,inflation_pct
+CRI,Costa Rica,-0.073671440596217,2025,FP.CPI.TOTL.ZG,inflation_pct
+CIV,Cote d'Ivoire,0.125038772593104,2025,FP.CPI.TOTL.ZG,inflation_pct
+HRV,Croatia,3.69153459605729,2025,FP.CPI.TOTL.ZG,inflation_pct
+CUW,Curacao,2.62220783425059,2019,FP.CPI.TOTL.ZG,inflation_pct
+CYP,Cyprus,0.126528851920189,2025,FP.CPI.TOTL.ZG,inflation_pct
+CZE,Czechia,2.45996367838865,2025,FP.CPI.TOTL.ZG,inflation_pct
+DNK,Denmark,1.89367372703044,2025,FP.CPI.TOTL.ZG,inflation_pct
+DJI,Djibouti,-0.313731799533481,2025,FP.CPI.TOTL.ZG,inflation_pct
+DMA,Dominica,2.53385126107135,2025,FP.CPI.TOTL.ZG,inflation_pct
+DOM,Dominican Republic,3.8731176804813,2025,FP.CPI.TOTL.ZG,inflation_pct
+ECU,Ecuador,0.710469324989076,2025,FP.CPI.TOTL.ZG,inflation_pct
+EGY,"Egypt, Arab Rep.",14.0735136645934,2025,FP.CPI.TOTL.ZG,inflation_pct
+SLV,El Salvador,0.257570528307203,2025,FP.CPI.TOTL.ZG,inflation_pct
+GNQ,Equatorial Guinea,2.92140227309103,2024,FP.CPI.TOTL.ZG,inflation_pct
+EST,Estonia,4.82920753628342,2025,FP.CPI.TOTL.ZG,inflation_pct
+SWZ,Eswatini,2.59801620311077,2019,FP.CPI.TOTL.ZG,inflation_pct
+ETH,Ethiopia,13.2296432836809,2025,FP.CPI.TOTL.ZG,inflation_pct
+FJI,Fiji,-1.38326833934224,2025,FP.CPI.TOTL.ZG,inflation_pct
+FIN,Finland,0.337874659400574,2025,FP.CPI.TOTL.ZG,inflation_pct
+FRA,France,0.943770212469976,2025,FP.CPI.TOTL.ZG,inflation_pct
+GAB,Gabon,1.76766609003481,2025,FP.CPI.TOTL.ZG,inflation_pct
+GMB,"Gambia, The",11.5610532897511,2024,FP.CPI.TOTL.ZG,inflation_pct
+GEO,Georgia,3.8692132193969,2025,FP.CPI.TOTL.ZG,inflation_pct
+DEU,Germany,2.17178770949721,2025,FP.CPI.TOTL.ZG,inflation_pct
+GHA,Ghana,14.2046755548989,2025,FP.CPI.TOTL.ZG,inflation_pct
+GRC,Greece,2.48209745378857,2025,FP.CPI.TOTL.ZG,inflation_pct
+GRD,Grenada,0.610311975893833,2025,FP.CPI.TOTL.ZG,inflation_pct
+GTM,Guatemala,1.48841591086169,2025,FP.CPI.TOTL.ZG,inflation_pct
+GIN,Guinea,3.54630163142885,2025,FP.CPI.TOTL.ZG,inflation_pct
+GNB,Guinea-Bissau,0.874929691038717,2025,FP.CPI.TOTL.ZG,inflation_pct
+GUY,Guyana,3.32982339132475,2025,FP.CPI.TOTL.ZG,inflation_pct
+HTI,Haiti,28.6427976686095,2025,FP.CPI.TOTL.ZG,inflation_pct
+HND,Honduras,4.59657982325258,2025,FP.CPI.TOTL.ZG,inflation_pct
+HKG,"Hong Kong SAR, China",1.43633540372673,2025,FP.CPI.TOTL.ZG,inflation_pct
+HUN,Hungary,4.41198445905562,2025,FP.CPI.TOTL.ZG,inflation_pct
+ISL,Iceland,4.09085056006515,2025,FP.CPI.TOTL.ZG,inflation_pct
+IND,India,2.39884954182294,2025,FP.CPI.TOTL.ZG,inflation_pct
+IDN,Indonesia,1.9133344329508,2025,FP.CPI.TOTL.ZG,inflation_pct
+IRN,"Iran, Islamic Rep.",42.1712244965444,2025,FP.CPI.TOTL.ZG,inflation_pct
+IRQ,Iraq,0.303454715219382,2025,FP.CPI.TOTL.ZG,inflation_pct
+IRL,Ireland,2.21044788475857,2025,FP.CPI.TOTL.ZG,inflation_pct
+ISR,Israel,3.0414132155654,2025,FP.CPI.TOTL.ZG,inflation_pct
+ITA,Italy,1.5316682765282,2025,FP.CPI.TOTL.ZG,inflation_pct
+JAM,Jamaica,4.00459048079239,2025,FP.CPI.TOTL.ZG,inflation_pct
+JPN,Japan,3.17253034260248,2025,FP.CPI.TOTL.ZG,inflation_pct
+JOR,Jordan,1.76646490894206,2025,FP.CPI.TOTL.ZG,inflation_pct
+KAZ,Kazakhstan,11.3879454675914,2025,FP.CPI.TOTL.ZG,inflation_pct
+KEN,Kenya,4.06912878540729,2025,FP.CPI.TOTL.ZG,inflation_pct
+KIR,Kiribati,2.45545072159028,2024,FP.CPI.TOTL.ZG,inflation_pct
+KOR,"Korea, Rep.",2.12309421458659,2025,FP.CPI.TOTL.ZG,inflation_pct
+XKX,Kosovo,3.85953869869506,2025,FP.CPI.TOTL.ZG,inflation_pct
+KWT,Kuwait,2.36195936682045,2025,FP.CPI.TOTL.ZG,inflation_pct
+KGZ,Kyrgyz Republic,8.21496013406325,2025,FP.CPI.TOTL.ZG,inflation_pct
+LAO,Lao PDR,7.74226936553695,2025,FP.CPI.TOTL.ZG,inflation_pct
+LVA,Latvia,3.74577316751945,2025,FP.CPI.TOTL.ZG,inflation_pct
+LBN,Lebanon,14.597595869611,2025,FP.CPI.TOTL.ZG,inflation_pct
+LSO,Lesotho,4.27011140706666,2025,FP.CPI.TOTL.ZG,inflation_pct
+LBR,Liberia,8.31564329402952,2025,FP.CPI.TOTL.ZG,inflation_pct
+LBY,Libya,1.84166666666702,2025,FP.CPI.TOTL.ZG,inflation_pct
+LTU,Lithuania,3.79170510860467,2025,FP.CPI.TOTL.ZG,inflation_pct
+LUX,Luxembourg,2.25723817871726,2025,FP.CPI.TOTL.ZG,inflation_pct
+MAC,"Macao SAR, China",0.333311677308542,2025,FP.CPI.TOTL.ZG,inflation_pct
+MDG,Madagascar,8.05052431791227,2025,FP.CPI.TOTL.ZG,inflation_pct
+MWI,Malawi,28.3702565330281,2025,FP.CPI.TOTL.ZG,inflation_pct
+MYS,Malaysia,1.38060872293692,2025,FP.CPI.TOTL.ZG,inflation_pct
+MDV,Maldives,4.00578494118752,2025,FP.CPI.TOTL.ZG,inflation_pct
+MLI,Mali,3.27823540357584,2025,FP.CPI.TOTL.ZG,inflation_pct
+MLT,Malta,2.36351752252186,2025,FP.CPI.TOTL.ZG,inflation_pct
+MRT,Mauritania,1.54796926167072,2025,FP.CPI.TOTL.ZG,inflation_pct
+MUS,Mauritius,3.67359279962943,2025,FP.CPI.TOTL.ZG,inflation_pct
+MEX,Mexico,3.80668650726485,2025,FP.CPI.TOTL.ZG,inflation_pct
+FSM,"Micronesia, Fed. Sts.",5.40874375479067,2022,FP.CPI.TOTL.ZG,inflation_pct
+MDA,Moldova,7.75904124001159,2025,FP.CPI.TOTL.ZG,inflation_pct
+MNG,Mongolia,8.60536487369695,2025,FP.CPI.TOTL.ZG,inflation_pct
+MNE,Montenegro,3.89960910704956,2025,FP.CPI.TOTL.ZG,inflation_pct
+MAR,Morocco,0.701902154839545,2025,FP.CPI.TOTL.ZG,inflation_pct
+MOZ,Mozambique,4.3684695014615,2025,FP.CPI.TOTL.ZG,inflation_pct
+MMR,Myanmar,8.82506696804558,2019,FP.CPI.TOTL.ZG,inflation_pct
+NAM,Namibia,3.51074539609587,2025,FP.CPI.TOTL.ZG,inflation_pct
+NRU,Naoero,-0.124750499001971,2012,FP.CPI.TOTL.ZG,inflation_pct
+NPL,Nepal,2.65334269811436,2025,FP.CPI.TOTL.ZG,inflation_pct
+NLD,Netherlands,3.2595766451366,2025,FP.CPI.TOTL.ZG,inflation_pct
+NCL,New Caledonia,0.578317435520754,2016,FP.CPI.TOTL.ZG,inflation_pct
+NZL,New Zealand,2.8397963180572,2025,FP.CPI.TOTL.ZG,inflation_pct
+NIC,Nicaragua,2.08132127098376,2025,FP.CPI.TOTL.ZG,inflation_pct
+NER,Niger,-4.45470804102568,2025,FP.CPI.TOTL.ZG,inflation_pct
+NGA,Nigeria,23.0101235833333,2025,FP.CPI.TOTL.ZG,inflation_pct
+MKD,North Macedonia,4.07249176848348,2025,FP.CPI.TOTL.ZG,inflation_pct
+NOR,Norway,3.05562484410077,2025,FP.CPI.TOTL.ZG,inflation_pct
+OMN,Oman,0.967741935483928,2025,FP.CPI.TOTL.ZG,inflation_pct
+PAK,Pakistan,3.54555214890893,2025,FP.CPI.TOTL.ZG,inflation_pct
+PLW,Palau,-0.418410041841039,2025,FP.CPI.TOTL.ZG,inflation_pct
+PAN,Panama,-0.189587880235675,2025,FP.CPI.TOTL.ZG,inflation_pct
+PNG,Papua New Guinea,4.42141364166485,2025,FP.CPI.TOTL.ZG,inflation_pct
+PRY,Paraguay,4.0380642333938,2025,FP.CPI.TOTL.ZG,inflation_pct
+PER,Peru,1.53125450314273,2025,FP.CPI.TOTL.ZG,inflation_pct
+PHL,Philippines,1.6587364525509,2025,FP.CPI.TOTL.ZG,inflation_pct
+POL,Poland,3.81419531520146,2025,FP.CPI.TOTL.ZG,inflation_pct
+PRT,Portugal,2.33601620316701,2025,FP.CPI.TOTL.ZG,inflation_pct
+QAT,Qatar,1.26734310292375,2024,FP.CPI.TOTL.ZG,inflation_pct
+ROU,Romania,7.18903362292063,2025,FP.CPI.TOTL.ZG,inflation_pct
+RUS,Russian Federation,8.71986939402666,2025,FP.CPI.TOTL.ZG,inflation_pct
+RWA,Rwanda,5.913000168826,2025,FP.CPI.TOTL.ZG,inflation_pct
+WSM,Samoa,2.2119620764675,2025,FP.CPI.TOTL.ZG,inflation_pct
+SMR,San Marino,2.29519525025037,2025,FP.CPI.TOTL.ZG,inflation_pct
+STP,Sao Tome and Principe,11.0474362281814,2025,FP.CPI.TOTL.ZG,inflation_pct
+SAU,Saudi Arabia,2.08420853585036,2025,FP.CPI.TOTL.ZG,inflation_pct
+SEN,Senegal,1.45900719841385,2025,FP.CPI.TOTL.ZG,inflation_pct
+SRB,Serbia,3.8903678606001,2025,FP.CPI.TOTL.ZG,inflation_pct
+SYC,Seychelles,0.297589655467556,2025,FP.CPI.TOTL.ZG,inflation_pct
+SLE,Sierra Leone,7.48750166612986,2025,FP.CPI.TOTL.ZG,inflation_pct
+SGP,Singapore,0.902998495002676,2025,FP.CPI.TOTL.ZG,inflation_pct
+SXM,Sint Maarten (Dutch part),2.19201010962985,2017,FP.CPI.TOTL.ZG,inflation_pct
+SVK,Slovak Republic,4.00042823495829,2025,FP.CPI.TOTL.ZG,inflation_pct
+SVN,Slovenia,2.37284807226549,2025,FP.CPI.TOTL.ZG,inflation_pct
+SLB,Solomon Islands,3.36462189317825,2025,FP.CPI.TOTL.ZG,inflation_pct
+ZAF,South Africa,3.20550474112603,2025,FP.CPI.TOTL.ZG,inflation_pct
+SSD,South Sudan,91.4408220769046,2024,FP.CPI.TOTL.ZG,inflation_pct
+ESP,Spain,2.699932857627,2025,FP.CPI.TOTL.ZG,inflation_pct
+LKA,Sri Lanka,-4.76386036960983,2025,FP.CPI.TOTL.ZG,inflation_pct
+KNA,St. Kitts and Nevis,3.55711230848243,2023,FP.CPI.TOTL.ZG,inflation_pct
+LCA,St. Lucia,2.02709512086274,2025,FP.CPI.TOTL.ZG,inflation_pct
+VCT,St. Vincent and the Grenadines,0.815322893749171,2025,FP.CPI.TOTL.ZG,inflation_pct
+SDN,Sudan,138.80846024176,2022,FP.CPI.TOTL.ZG,inflation_pct
+SUR,Suriname,9.2054681878919,2025,FP.CPI.TOTL.ZG,inflation_pct
+SWE,Sweden,0.679869285243995,2025,FP.CPI.TOTL.ZG,inflation_pct
+CHE,Switzerland,0.154376978290185,2025,FP.CPI.TOTL.ZG,inflation_pct
+SYR,Syrian Arab Republic,13.4175653228571,2019,FP.CPI.TOTL.ZG,inflation_pct
+TJK,Tajikistan,6.00458082322139,2016,FP.CPI.TOTL.ZG,inflation_pct
+TZA,Tanzania,3.32697361316105,2025,FP.CPI.TOTL.ZG,inflation_pct
+THA,Thailand,-0.133634356480207,2025,FP.CPI.TOTL.ZG,inflation_pct
+TLS,Timor-Leste,0.428322848346937,2025,FP.CPI.TOTL.ZG,inflation_pct
+TGO,Togo,0.433183451279109,2025,FP.CPI.TOTL.ZG,inflation_pct
+TON,Tonga,5.59276642101027,2025,FP.CPI.TOTL.ZG,inflation_pct
+TTO,Trinidad and Tobago,0.994489987904821,2025,FP.CPI.TOTL.ZG,inflation_pct
+TUN,Tunisia,5.15100197572676,2025,FP.CPI.TOTL.ZG,inflation_pct
+TUR,Turkiye,34.8811629820306,2025,FP.CPI.TOTL.ZG,inflation_pct
+TUV,Tuvalu,0.5005807431527,2011,FP.CPI.TOTL.ZG,inflation_pct
+UGA,Uganda,3.58082784438067,2025,FP.CPI.TOTL.ZG,inflation_pct
+UKR,Ukraine,12.7303341026903,2025,FP.CPI.TOTL.ZG,inflation_pct
+ARE,United Arab Emirates,1.250865245598,2025,FP.CPI.TOTL.ZG,inflation_pct
+GBR,United Kingdom,3.88306881626,2025,FP.CPI.TOTL.ZG,inflation_pct
+USA,United States,2.94952520485207,2024,FP.CPI.TOTL.ZG,inflation_pct
+URY,Uruguay,4.65032720433324,2025,FP.CPI.TOTL.ZG,inflation_pct
+UZB,Uzbekistan,8.79638847052461,2025,FP.CPI.TOTL.ZG,inflation_pct
+VUT,Vanuatu,0.656455142231905,2025,FP.CPI.TOTL.ZG,inflation_pct
+VEN,"Venezuela, RB",254.948534781816,2016,FP.CPI.TOTL.ZG,inflation_pct
+VNM,Viet Nam,3.3099931421974,2025,FP.CPI.TOTL.ZG,inflation_pct
+PSE,West Bank and Gaza,9.80840118100493,2025,FP.CPI.TOTL.ZG,inflation_pct
+YEM,"Yemen, Rep.",8.10472583623915,2014,FP.CPI.TOTL.ZG,inflation_pct
+ZMB,Zambia,13.9099095827735,2025,FP.CPI.TOTL.ZG,inflation_pct
+ZWE,Zimbabwe,104.705170628667,2022,FP.CPI.TOTL.ZG,inflation_pct
+AFE,Africa Eastern and Southern,3.96229304413263,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+AFW,Africa Western and Central,3.21562023947166,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ARB,Arab World,3.76860740670194,2020,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CSS,Caribbean small states,3.23358011245727,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CEB,Central Europe and the Baltics,4.31669998168945,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+EAR,Early-demographic dividend,3.393709897995,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+EAS,East Asia & Pacific,3.51481008529663,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+EAP,East Asia & Pacific (excluding high income),3.01801614079218,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TEA,East Asia & Pacific (IDA & IBRD countries),3.01801614079218,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+EMU,Euro area,4.74210977554321,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ECS,Europe & Central Asia,4.56857490539551,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ECA,Europe & Central Asia (excluding high income),3.70918011665344,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TEC,Europe & Central Asia (IDA & IBRD countries),3.93686432529785,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+EUU,European Union,4.65688991546631,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+FCV,"Fragility, Conflict, and Violence (FCV) situations",2.32719601134565,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+HPC,Heavily indebted poor countries (HIPC),3.24413772101569,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+,High income,4.69949984550476,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IBD,IBRD only,3.6590050458908,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IBT,IDA & IBRD total,3.51481008529663,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IDB,IDA blend,3.34005209256916,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IDX,IDA only,3.21562023947166,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IDA,IDA total,3.22974322056608,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LTE,Late-demographic dividend,4.03084428001739,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LCN,Latin America & Caribbean,3.81964993476868,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LAC,Latin America & Caribbean (excluding high income),3.79014883614714,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TLA,Latin America & the Caribbean (IDA & IBRD countries),3.79014883614714,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LDC,Least developed countries: UN classification,3.20149725837724,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LMY,Low & middle income,3.45929503440857,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+,Low income,2.97970783777452,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+,Lower middle income,3.39421010017395,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MEA,"Middle East, North Africa, Afghanistan & Pakistan",4.38311004638672,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MNA,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",3.73344993591309,2017,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TMN,"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",3.51486315596325,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MIC,Middle income,3.56927475138052,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NAC,North America,4.84426021575928,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+OED,OECD members,5.05915021896362,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+OSS,Other small states,5.00431592836751,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PST,Post-demographic dividend,4.96171021461486,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PRE,Pre-demographic dividend,3.24413772101569,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SST,Small states,4.78955296464152,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SAS,South Asia,2.86143825839217,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TSA,South Asia (IDA & IBRD),2.86143825839217,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SSF,Sub-Saharan Africa,3.25853222146531,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SSA,Sub-Saharan Africa (excluding high income),3.25853222146531,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TSS,Sub-Saharan Africa (IDA & IBRD countries),3.25853222146531,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+,Upper middle income,3.6236863467978,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+WLD,World,3.56927475138052,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+AFG,Afghanistan,4.34319019317627,2017,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ALB,Albania,3.09153008460998,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+DZA,Algeria,8.97772026062012,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ASM,American Samoa,14.7170495986938,2006,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+AND,Andorra,1.89867997169495,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+AGO,Angola,2.51273663315785,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ATG,Antigua and Barbuda,3.10505161832136,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ARG,Argentina,5.00324010848999,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ARM,Armenia,2.43869996070862,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ABW,Aruba,3.61855755636695,2021,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+AUS,Australia,5.05915021896362,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+AUT,Austria,5.27749013900757,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+AZE,Azerbaijan,3.66036009788513,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BHS,"Bahamas, The",2.74191570247934,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BHR,Bahrain,1.88778167912993,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BGD,Bangladesh,2.0343847791384,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BRB,Barbados,3.55593188106322,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BLR,Belarus,5.04593992233276,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BEL,Belgium,6.27611017227173,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BLZ,Belize,4.62276317232973,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BEN,Benin,3.22974322056608,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BMU,Bermuda,1.86510440752276,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BTN,Bhutan,5.84518003463745,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BOL,Bolivia,7.53980016708374,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BIH,Bosnia and Herzegovina,3.24564826597779,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BWA,Botswana,8.05833660991541,2020,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BRA,Brazil,5.61920976638794,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+VGB,British Virgin Islands,3.17283855528435,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BRN,Brunei Darussalam,4.42539978027344,2016,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BGR,Bulgaria,4.50109004974365,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BFA,Burkina Faso,5.32757840997187,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+BDI,Burundi,4.5040397644043,2025,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CPV,Cabo Verde,4.3482854136693,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+KHM,Cambodia,2.1809128340295,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CMR,Cameroon,2.83907623667935,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CAN,Canada,4.84426021575928,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CYM,Cayman Islands,1.57024002075195,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CAF,Central African Republic,1.82995911310419,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TCD,Chad,3.20149725837724,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CHL,Chile,4.91201019287109,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CHN,China,3.89714002609253,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+COL,Colombia,5.26166009902954,2020,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+COM,Comoros,2.34146896682989,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+COD,"Congo, Dem. Rep.",2.84466514463005,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+COG,"Congo, Rep.",3.34005209256916,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CRI,Costa Rica,5.31208992004395,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CIV,Cote d'Ivoire,3.61279988288879,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+HRV,Croatia,4.0916600227356,2021,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CUB,Cuba,8.44086351669284,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CUW,Curacao,5.44313725490196,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CYP,Cyprus,4.74210977554321,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CZE,Czechia,4.30291986465454,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+DNK,Denmark,6.35586023330688,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+DJI,Djibouti,3.75143003463745,2018,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+DMA,Dominica,5.38572189060925,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+DOM,Dominican Republic,3.7606477375256,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ECU,Ecuador,3.69074988365173,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+EGY,"Egypt, Arab Rep.",3.76082992553711,2008,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SLV,El Salvador,3.31666994094849,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GNQ,Equatorial Guinea,2.18796992301941,1998,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ERI,Eritrea,2.12700009346008,2006,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+EST,Estonia,5.20733976364136,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SWZ,Eswatini,6.03082905337534,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ETH,Ethiopia,2.2978069565991,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+FJI,Fiji,4.24679790890603,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+FIN,Finland,6.37578010559082,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+FRA,France,5.32434988021851,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GAB,Gabon,2.31594287726056,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GMB,"Gambia, The",2.80838156544977,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GEO,Georgia,3.98011682083814,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+DEU,Germany,5.23916006088257,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GHA,Ghana,2.90963831638452,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GRC,Greece,3.37547993659973,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GRD,Grenada,5.12544845968893,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GTM,Guatemala,3.07588005065918,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GIN,Guinea,1.72470879088585,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GNB,Guinea-Bissau,2.01027011871338,2013,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GUY,Guyana,4.45058012008667,2018,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+HTI,Haiti,0.964648012977964,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+HND,Honduras,4.54962037172702,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+HKG,"Hong Kong SAR, China",3.80552005767822,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+HUN,Hungary,3.8011999130249,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ISL,Iceland,7.30798006057739,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IND,India,4.09865814174589,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IDN,Indonesia,1.27517088245674,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IRN,"Iran, Islamic Rep.",2.82443290958712,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IRQ,Iraq,3.55150008201599,1989,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+IRL,Ireland,2.90461993217468,2021,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ISR,Israel,5.93291997909546,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ITA,Italy,4.06775999069214,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+JAM,Jamaica,5.51383018493652,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+JPN,Japan,3.33663988113403,2021,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+JOR,Jordan,3.23356008529663,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+KAZ,Kazakhstan,4.86469984054565,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+KEN,Kenya,4.02242346098974,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+KIR,Kiribati,16.39053,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+KOR,"Korea, Rep.",5.40910005569458,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+KWT,Kuwait,6.43592667889685,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+KGZ,Kyrgyz Republic,6.82694680798777,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LAO,Lao PDR,1.23375160355741,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LVA,Latvia,4.3196702003479,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LBN,Lebanon,1.22490869993085,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LSO,Lesotho,6.62253066096596,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LBR,Liberia,2.2665256232687,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LBY,Libya,2.26416993141174,1999,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LIE,Liechtenstein,2.55604004859924,2011,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LTU,Lithuania,4.25285005569458,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LUX,Luxembourg,3.74451994895935,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MAC,"Macao SAR, China",3.50183010101318,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MDG,Madagascar,3.04770386693564,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MWI,Malawi,2.74888371105811,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MYS,Malaysia,3.51481008529663,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MDV,Maldives,5.16706374664829,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MLI,Mali,4.18465094218116,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MLT,Malta,4.71258020401001,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MHL,Marshall Islands,7.70088005065918,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MRT,Mauritania,7.61007976531982,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MUS,Mauritius,4.247389793396,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MEX,Mexico,4.05987977981567,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+FSM,"Micronesia, Fed. Sts.",11.5591397849462,2020,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MDA,Moldova,6.55709981918335,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MCO,Monaco,1.73223996162415,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MNG,Mongolia,5.21229982376099,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MAR,Morocco,6.02096928801329,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MOZ,Mozambique,5.97607342054314,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MMR,Myanmar,1.99976003170013,2019,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NAM,Namibia,9.08440819434816,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NRU,Naoero,5.77715015411377,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NPL,Nepal,3.68849173764595,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NLD,Netherlands,5.17918014526367,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NZL,New Zealand,5.21326017379761,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NIC,Nicaragua,2.86954998970032,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NER,Niger,4.07412707618114,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NGA,Nigeria,0.319069049792343,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+MKD,North Macedonia,3.30014991760254,2002,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+NOR,Norway,5.43234014511108,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+OMN,Oman,4.38311004638672,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PAK,Pakistan,1.94658005237579,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PLW,Palau,3.43726476321334,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PAN,Panama,2.47225999832153,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PNG,Papua New Guinea,0.782122804685732,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PRY,Paraguay,3.53410005569458,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PER,Peru,4.35778999328613,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PHL,Philippines,3.96922646675346,2025,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+POL,Poland,4.31372976303101,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PRT,Portugal,4.55160999298096,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PRI,Puerto Rico (US),4.27101949674789,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+QAT,Qatar,3.23368000984192,2020,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ROU,Romania,3.2788200378418,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+RUS,Russian Federation,4.16454853394225,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+RWA,Rwanda,4.61476993560791,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+WSM,Samoa,5.45616637544294,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SMR,San Marino,2.89753007888794,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+STP,Sao Tome and Principe,5.0288576428727,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SAU,Saudi Arabia,4.48087978363037,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SEN,Senegal,6.16277045366329,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SRB,Serbia,3.40377998352051,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SYC,Seychelles,4.45409960547034,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SLE,Sierra Leone,2.62455277942046,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SGP,Singapore,2.19099857819757,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SXM,Sint Maarten (Dutch part),3.92363832601723,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SVK,Slovak Republic,4.65688991546631,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SVN,Slovenia,5.28065013885498,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SLB,Solomon Islands,8.29349080062944,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SOM,"Somalia, Fed. Rep.",8.14262404011e-06,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ZAF,South Africa,6.02110004425049,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SSD,South Sudan,1.56539228959694,2016,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ESP,Spain,4.58553981781006,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LKA,Sri Lanka,1.82774571561927,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+KNA,St. Kitts and Nevis,3.49726171629099,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+LCA,St. Lucia,3.84700018653403,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+VCT,St. Vincent and the Grenadines,6.4582691706334,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SDN,Sudan,2.02213001251221,2009,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SUR,Suriname,2.86623341491363,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SWE,Sweden,7.31909990310669,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+CHE,Switzerland,4.86427021026611,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+SYR,Syrian Arab Republic,5.13012981414795,2009,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TJK,Tajikistan,5.43682120015444,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TZA,Tanzania,3.15504437906936,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+THA,Thailand,2.52122219628772,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TLS,Timor-Leste,5.24052834781801,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TGO,Togo,4.14281885166484,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TON,Tonga,5.31016278046634,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TTO,Trinidad and Tobago,3.23358011245727,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TUN,Tunisia,6.73398856321206,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TUR,Turkiye,3.09571003913879,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TKM,Turkmenistan,4.28878021240234,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TCA,Turks and Caicos Islands,2.94998113247616,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+TUV,Tuvalu,12.8456897735596,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+UGA,Uganda,2.56105027176925,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+UKR,Ukraine,5.14010000228882,2021,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ARE,United Arab Emirates,3.89404010772705,2021,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+GBR,United Kingdom,5.90681982040405,2021,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+USA,United States,5.42038011550903,2021,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+URY,Uruguay,4.76461982727051,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+UZB,Uzbekistan,5.47287597270024,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+VUT,Vanuatu,7.63695001602173,2024,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+VEN,"Venezuela, RB",6.87467002868652,2009,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+VNM,Viet Nam,2.88738689372749,2022,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+PSE,West Bank and Gaza,5.43442010879517,2021,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+YEM,"Yemen, Rep.",5.15144014358521,2008,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ZMB,Zambia,4.07374933049157,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
+ZWE,Zimbabwe,0.384771297211919,2023,SE.XPD.TOTL.GD.ZS,education_spend_pct_gdp
