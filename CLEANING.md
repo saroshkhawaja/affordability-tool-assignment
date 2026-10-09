@@ -96,7 +96,7 @@ Data quality was checked for the final data set and showed that there were no du
 ## Entry 9 — Year Consistency Check
 191 countries were checked and 168 of them had the same reporting year on the indicators, and 23 countries (around 12%) had different reporting years. There were no changes to data at this check, only to help identify differences in reporting years. Such mismatches could impact the reliability of price_level_ratio comparisons as indicators reported for different years may not accurately reflect the same economic conditions.
 
-Entry 10 — Encoding Check
+## Entry 10 — Encoding Check
 There were no problems with reading the raw or cleaned CSV files in either case with UTF-8 encoding. The raw dataset has 1,160 rows and the cleaned data set has 191 rows. Both files were able to be loaded and there were no encoding errors, so it was decided that there would be no changes.
 
 ## Verified pipeline run
