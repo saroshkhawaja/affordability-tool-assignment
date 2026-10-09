@@ -96,16 +96,18 @@ the math that decides group membership.
 Running `fetch_data.py` then `clean_data.py` end-to-end on the author's
 machine produced:
 ```
-Raw rows loaded: 1159
-Removed 47 aggregate/region rows (e.g. World, High income).
-Dropped 10 rows missing an essential indicator (gni_per_capita_ppp,
-price_level_ratio, or inflation_pct). Remaining: 191 countries.
+Raw rows loaded: 1160
+Removed 43 aggregate/region rows (e.g. World, High income).
+Dropped 26 rows missing an essential indicator (gni_per_capita_ppp, price_level_ratio, or inflation_pct). Remaining: 191 countries.
 
 Affordability group sizes:
+affordability_group
 Mid-Range          129
 Premium             52
 Budget-Friendly     10
+Name: count, dtype: int64
 
+Saved cleaned, clustered data -> data/processed\countries_clean.csv
 Final shape: (191, 12)
 ```
 This is the real, unedited console output from the run, confirming the
