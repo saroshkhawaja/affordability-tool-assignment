@@ -13,20 +13,16 @@ against `data/processed/countries_clean.csv` (191 countries).
 2. **"Log-Transforming GNI Makes It Roughly Symmetric"** — the
    transformation: the same variable after a `log10` transform. This is
    the required before/after transformation pair.
-3. **"A Few Extreme Outliers Dominate Inflation"** — a histogram of true,
-   uncapped `inflation_pct`, showing nearly all countries clustered under
-   20% with a handful of extreme hyperinflation cases stretching the axis
-   out past 250%.
-4. **"Affordability Groups Separate Along Income & Price Level"** — a
+3. **"Affordability Groups Separate Along Income & Price Level"** — a
    scatter of GNI per capita vs. price level ratio, colored by
    `affordability_group`, showing the three K-Means groups roughly
    separating along these two axes.
-5. **"Confounder Check: Instability Flag vs the Same Axes"** — the same
+4. **"Confounder Check: Instability Flag vs the Same Axes"** — the same
    scatter, colored instead by `economic_instability_flag`, to check
    whether the clustering is really being driven by income/price level or
    by the small number of hyperinflation outliers (see Confounder Check
    below).
-6. **"Mid-Range Dominates the Affordability Groups"** — a bar chart of
+5. **"Mid-Range Dominates the Affordability Groups"** — a bar chart of
    group sizes: Mid-Range 129, Premium 52, Budget-Friendly 10.
 
 ## Transformation shown (before → after)
@@ -48,9 +44,7 @@ skewness as a legitimate follow-up refinement, not a change already made.)
 - **Granularity:** Country-level — the finest level this dataset offers;
   no sub-national (city/region) detail, which matters because actual
   student cost of living varies a lot within a country.
-- **Scope:** 191 of the ~201 countries/territories the World Bank API
-  returned (small territories and a few countries missing an essential
-  indicator were dropped — see CLEANING.md).
+- **Scope:** 191 countries are included in the final data set, excluding 43 aggregate/region entries and 26 countries that have missing essential indicators. Documented cleaning steps for detailed cleaning are in CLEANING.md.
 - **Temporality:** Each country's values are its own most-recent
   non-empty figure (`mrnev=1`), not a fixed shared year — so this is a
   snapshot, not a true time-aligned panel.
@@ -74,10 +68,7 @@ Budget-Friendly group, and they pull that group's *true* average inflation
 up to 97.8%, even though the clustering itself used a capped value (max
 40) specifically so these six wouldn't distort the distance calculation.
 
-**Conclusion:** The inflation cap did its job for the clustering math —
-these 6 countries are grouped with Budget-Friendly because of genuinely
-low income and low price level, not because hyperinflation alone pulled
-them there. But the flag check shows a real confound to be upfront about:
+**Conclusion:** Six countries with inflation rates above 40% were classified in the Budget-Friendly group. Clustering: Inflation values were limited to 40%, original values were used for analysis. But the chart doesn't tell us why K-Means classified these countries into that group. The flag check shows a real confound to be upfront about:
 "Budget-Friendly" as a group still contains some of the least
 economically stable countries in the dataset, so a student reading the
 group label alone, without noticing `economic_instability_flag`, could
@@ -87,8 +78,7 @@ easily mistake "cheap" for "cheap and stable."
 
 1. **Income inequality across countries is extreme and skewed, not
    evenly spread** — half of all countries have a GNI per capita under
-   $19,990, while the top end reaches $135,750 (Macao SAR China); that's
-   why GNI needed a log transform to look at reasonably.
+   $19,990, while the top end reaches $135,750 (Macao SAR China); The log10 transformation was used only for the EDA chart to make the GNI distribution easier to visualize. Raw GNI values were standardized prior to using them for clustering.
 2. **Most countries cluster in the middle** — 129 of 191 (68%) land in
    "Mid-Range," while only 10 are "Budget-Friendly" and 52 are "Premium,"
    so the tool's three-way split is lopsided rather than an even split of
