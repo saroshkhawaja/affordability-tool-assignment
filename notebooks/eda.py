@@ -54,7 +54,7 @@ for flag, sub in df.groupby("economic_instability_flag"):
                      alpha=0.7, s=25,
                      color="#C44E52" if flag else "#4C72B0")
 axes[3].set_title("Confounder Check: Instability Flag vs the Same Axes\n"
-                   "Story holds: instability isn't what separates the groups",
+                   ""Six high-inflation countries are highlighted",
                    fontsize=10)
 axes[3].set_xlabel("GNI per capita, PPP (intl $)")
 axes[3].set_ylabel("Price level ratio")
