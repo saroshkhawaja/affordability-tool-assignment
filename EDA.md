@@ -3,8 +3,7 @@
 Chart source: `notebooks/eda.py` (outputs `notebooks/eda_charts.png`), run
 against `data/processed/countries_clean.csv` (191 countries).
 
-<img width="2400" height="1350" alt="eda_charts (1)" src="https://github.com/user-attachments/assets/daa8e1a1-aefe-429f-9c93-3e922f886937" />
-
+![EDA charts](notebooks/eda_charts.png)
 
 ## Charts
 
