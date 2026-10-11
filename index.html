@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Study Abroad Affordability Comparison</title>
+<style>
+:root{
+  --bg:#f7f8fa; --card:#ffffff; --text:#1a1d23; --muted:#6b7280;
+  --border:#e5e7eb; --accent:#1f3864; --accent2:#2f6f4f;
+  box-sizing:border-box; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14161a; --card:#1d2026; --text:#e8e9ec; --muted:#9aa1ac; --border:#2c3038; --accent:#7fa5d8; --accent2:#4ade80;
+  }
+}
+:root[data-theme="dark"]{ --bg:#14161a; --card:#1d2026; --text:#e8e9ec; --muted:#9aa1ac; --border:#2c3038; --accent:#7fa5d8; --accent2:#4ade80; }
+html{scroll-padding-top: env(safe-area-inset-top, 0px);}
+*{box-sizing:border-box;}
+body{margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; min-height:100%;}
+.wrap{max-width:680px; margin:0 auto; padding:28px 18px 60px;}
+h1{font-size:1.3rem; margin:0 0 4px; color:var(--accent);}
+.subtitle{color:var(--muted); font-size:0.9rem; margin:0 0 22px; line-height:1.4;}
+.card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px; margin-bottom:16px;}
+.selectors{display:flex; gap:12px; flex-wrap:wrap;}
+.selectors > div{flex:1; min-width:140px;}
+label{display:block; font-size:0.8rem; font-weight:600; margin-bottom:6px; color:var(--muted);}
+select{width:100%; padding:11px 12px; font-size:0.95rem; border-radius:10px; border:1px solid var(--border); background:var(--bg); color:var(--text);}
+.vs{align-self:flex-end; padding-bottom:12px; color:var(--muted); font-weight:700; text-align:center; flex:0 0 auto; width:30px;}
+.result{display:none; margin-top:18px;}
+.result.show{display:block;}
+.winner{text-align:center; padding:14px; border-radius:12px; margin-bottom:18px; background:linear-gradient(135deg, rgba(47,111,79,0.12), rgba(47,111,79,0.04)); border:1px solid var(--border);}
+.winner .label{font-size:0.78rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em;}
+.winner .name{font-size:1.3rem; font-weight:800; color:var(--accent2); margin-top:4px;}
+table{width:100%; border-collapse:collapse; font-size:0.88rem;}
+th{text-align:left; color:var(--muted); font-weight:600; padding:8px 6px; border-bottom:1px solid var(--border);}
+td{padding:10px 6px; border-bottom:1px solid var(--border);}
+td.metric{color:var(--muted);}
+td.better{font-weight:700; color:var(--accent2);}
+.na{color:var(--muted); font-style:italic;}
+.note{font-size:0.8rem; color:var(--muted); line-height:1.5; margin-top:16px; padding-top:14px; border-top:1px dashed var(--border);}
+.foot{color:var(--muted); font-size:0.76rem; text-align:center; margin-top:22px; line-height:1.6;}
+.count{font-size:0.78rem; color:var(--accent2); font-weight:600; margin-bottom:10px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Study Abroad Affordability Comparison</h1>
+  <p class="subtitle">Pick any two countries to compare affordability for a student planning to study abroad — built on free, live World Bank data (WDI).</p>
+
+  <div class="card">
+    <div class="count" id="countLabel"></div>
+    <div class="selectors">
+      <div>
+        <label for="countryA">Country A</label>
+        <select id="countryA"></select>
+      </div>
+      <div class="vs">vs</div>
+      <div>
+        <label for="countryB">Country B</label>
+        <select id="countryB"></select>
+      </div>
+    </div>
+
+    <div class="result" id="result">
+      <div class="winner">
+        <div class="label">More affordable overall</div>
+        <div class="name" id="winnerName">—</div>
+      </div>
+      <table>
+        <thead><tr><th>Metric</th><th id="colA">A</th><th id="colB">B</th></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>How to read this:</strong> Purchasing power (GNI per capita, PPP) — higher means people there can afford more with their income. Price level — how expensive the country is compared to the US (1.0 = same as US). Inflation — how fast prices are rising. Lower price level and lower inflation, with higher purchasing power, mean better affordability.<br><br>
+    <strong>Limitation:</strong> this reflects general cost of living, not exact tuition or rent for a specific university. A few countries with distorted exchange rates (e.g. sanctions-affected economies) may show an unusually high price level — treat those as outliers, not literal cost comparisons.
+  </div>
+
+  <div class="foot">
+    Data: World Bank World Development Indicators (WDI), free &amp; public, pulled live via API<br>
+    201 countries, most recent available year per country
+  </div>
+</div>
+
+<script>
+const DATA = [{"n":"Afghanistan","gni":2250.0,"price":0.1723,"infl":-6.6,"edu":4.34},{"n":"Albania","gni":28170.0,"price":0.4293,"infl":2.15,"edu":3.09},{"n":"Algeria","gni":18240.0,"price":0.3256,"infl":1.42,"edu":8.98},{"n":"Andorra","gni":80950.0,"price":0.6807,"infl":null,"edu":1.9},{"n":"Angola","gni":9840.0,"price":0.3541,"infl":20.16,"edu":2.51},{"n":"Antigua and Barbuda","gni":34670.0,"price":0.6926,"infl":1.37,"edu":3.11},{"n":"Argentina","gni":31920.0,"price":0.4572,"infl":219.88,"edu":5.0},{"n":"Armenia","gni":24020.0,"price":0.3827,"infl":3.31,"edu":2.44},{"n":"Aruba","gni":48900.0,"price":0.7463,"infl":4.26,"edu":3.62},{"n":"Australia","gni":69930.0,"price":0.9014,"infl":2.87,"edu":5.06},{"n":"Austria","gni":77010.0,"price":0.8196,"infl":3.53,"edu":5.28},{"n":"Azerbaijan","gni":25430.0,"price":0.2838,"infl":5.62,"edu":3.66},{"n":"Bahamas The","gni":39610.0,"price":0.9563,"infl":0.41,"edu":2.74},{"n":"Bahrain","gni":65500.0,"price":0.431,"infl":-0.14,"edu":1.89},{"n":"Bangladesh","gni":10710.0,"price":0.2536,"infl":8.77,"edu":2.03},{"n":"Barbados","gni":24840.0,"price":1.0954,"infl":0.85,"edu":3.56},{"n":"Belarus","gni":34310.0,"price":0.2961,"infl":6.6,"edu":5.05},{"n":"Belgium","gni":75620.0,"price":0.8135,"infl":2.47,"edu":6.28},{"n":"Belize","gni":14230.0,"price":0.5256,"infl":1.06,"edu":4.62},{"n":"Benin","gni":4760.0,"price":0.3443,"infl":1.1,"edu":3.23},{"n":"Bermuda","gni":122530.0,"price":1.1981,"infl":null,"edu":1.87},{"n":"Bhutan","gni":18520.0,"price":0.2293,"infl":3.56,"edu":5.85},{"n":"Bolivia","gni":12530.0,"price":0.3999,"infl":19.52,"edu":7.54},{"n":"Bosnia and Herzegovina","gni":25810.0,"price":0.4019,"infl":6.11,"edu":3.25},{"n":"Botswana","gni":19960.0,"price":0.3758,"infl":2.66,"edu":8.06},{"n":"Brazil","gni":22670.0,"price":0.4572,"infl":5.02,"edu":5.62},{"n":"Brunei Darussalam","gni":95420.0,"price":0.3487,"infl":-0.3,"edu":4.43},{"n":"Bulgaria","gni":42170.0,"price":0.2338,"infl":4.58,"edu":4.5},{"n":"Burkina Faso","gni":2890.0,"price":0.3736,"infl":-0.59,"edu":5.33},{"n":"Burundi","gni":1250.0,"price":0.3396,"infl":34.13,"edu":4.5},{"n":"Cabo Verde","gni":12010.0,"price":0.4765,"infl":2.34,"edu":4.35},{"n":"Cambodia","gni":8390.0,"price":0.3362,"infl":2.35,"edu":2.18},{"n":"Cameroon","gni":5700.0,"price":0.3408,"infl":3.4,"edu":2.84},{"n":"Canada","gni":66820.0,"price":0.8345,"infl":2.07,"edu":4.84},{"n":"Cayman Islands","gni":74470.0,"price":1.1311,"infl":-0.63,"edu":1.57},{"n":"Central African Republic","gni":1390.0,"price":0.4233,"infl":1.0,"edu":1.83},{"n":"Chad","gni":2770.0,"price":0.3522,"infl":-3.91,"edu":3.2},{"n":"Chile","gni":35730.0,"price":0.4764,"infl":4.21,"edu":4.91},{"n":"China","gni":29160.0,"price":0.4726,"infl":0.06,"edu":3.9},{"n":"Colombia","gni":22250.0,"price":0.3782,"infl":5.14,"edu":5.26},{"n":"Comoros","gni":4260.0,"price":0.4862,"infl":3.25,"edu":2.34},{"n":"Congo Dem Rep","gni":1850.0,"price":0.4177,"infl":2.89,"edu":2.84},{"n":"Congo Rep","gni":6490.0,"price":0.3469,"infl":2.4,"edu":3.34},{"n":"Costa Rica","gni":30760.0,"price":0.5906,"infl":-0.07,"edu":5.31},{"n":"Cote d'Ivoire","gni":7750.0,"price":0.3716,"infl":0.13,"edu":3.61},{"n":"Croatia","gni":50410.0,"price":0.532,"infl":3.69,"edu":4.09},{"n":"Curacao","gni":33330.0,"price":0.6974,"infl":2.62,"edu":5.44},{"n":"Cyprus","gni":57390.0,"price":0.6471,"infl":0.13,"edu":4.74},{"n":"Czechia","gni":57870.0,"price":0.5938,"infl":2.46,"edu":4.3},{"n":"Denmark","gni":85460.0,"price":0.9249,"infl":1.89,"edu":6.36},{"n":"Djibouti","gni":8660.0,"price":0.4621,"infl":-0.31,"edu":3.75},{"n":"Dominica","gni":22130.0,"price":0.4838,"infl":2.53,"edu":5.39},{"n":"Dominican Republic","gni":26980.0,"price":0.3851,"infl":3.87,"edu":3.76},{"n":"Ecuador","gni":16290.0,"price":0.4252,"infl":0.71,"edu":3.69},{"n":"Egypt Arab Rep","gni":19330.0,"price":0.1541,"infl":14.07,"edu":3.76},{"n":"El Salvador","gni":13140.0,"price":0.409,"infl":0.26,"edu":3.32},{"n":"Equatorial Guinea","gni":14610.0,"price":0.41,"infl":2.92,"edu":2.19},{"n":"Eritrea","gni":1720.0,"price":0.3276,"infl":null,"edu":2.13},{"n":"Estonia","gni":51370.0,"price":0.6605,"infl":4.83,"edu":5.21},{"n":"Eswatini","gni":11390.0,"price":0.3279,"infl":2.6,"edu":6.03},{"n":"Ethiopia","gni":3620.0,"price":0.3725,"infl":13.23,"edu":2.3},{"n":"Faroe Islands","gni":83480.0,"price":0.9408,"infl":null,"edu":null},{"n":"Fiji","gni":15360.0,"price":0.4065,"infl":-1.38,"edu":4.25},{"n":"Finland","gni":66300.0,"price":0.8522,"infl":0.34,"edu":6.38},{"n":"France","gni":65110.0,"price":0.7657,"infl":0.94,"edu":5.32},{"n":"Gabon","gni":21660.0,"price":0.3719,"infl":1.77,"edu":2.32},{"n":"Gambia The","gni":3660.0,"price":0.2496,"infl":11.56,"edu":2.81},{"n":"Georgia","gni":27570.0,"price":0.3294,"infl":3.87,"edu":3.98},{"n":"Germany","gni":78140.0,"price":0.8023,"infl":2.17,"edu":5.24},{"n":"Ghana","gni":8080.0,"price":0.3783,"infl":14.2,"edu":2.91},{"n":"Greece","gni":44310.0,"price":0.5954,"infl":2.48,"edu":3.38},{"n":"Greenland","gni":40270.0,"price":0.7714,"infl":null,"edu":null},{"n":"Grenada","gni":20170.0,"price":0.5672,"infl":0.61,"edu":5.13},{"n":"Guatemala","gni":15020.0,"price":0.4342,"infl":1.49,"edu":3.08},{"n":"Guinea","gni":4730.0,"price":0.3436,"infl":3.55,"edu":1.72},{"n":"Guinea-Bissau","gni":3320.0,"price":0.3412,"infl":0.87,"edu":2.01},{"n":"Guyana","gni":80300.0,"price":0.3311,"infl":3.33,"edu":4.45},{"n":"Haiti","gni":3130.0,"price":0.8602,"infl":28.64,"edu":0.96},{"n":"Honduras","gni":7270.0,"price":0.4571,"infl":4.6,"edu":4.55},{"n":"Hong Kong SAR China","gni":88500.0,"price":0.7085,"infl":1.44,"edu":3.81},{"n":"Hungary","gni":48630.0,"price":0.5198,"infl":4.41,"edu":3.8},{"n":"Iceland","gni":83250.0,"price":1.1785,"infl":4.09,"edu":7.31},{"n":"India","gni":11600.0,"price":0.2305,"infl":2.4,"edu":4.1},{"n":"Indonesia","gni":17190.0,"price":0.2865,"infl":1.91,"edu":1.28},{"n":"Iran Islamic Rep","gni":19660.0,"price":3.5223,"infl":42.17,"edu":2.82},{"n":"Iraq","gni":14290.0,"price":0.3792,"infl":0.3,"edu":3.55},{"n":"Ireland","gni":106310.0,"price":0.8485,"infl":2.21,"edu":2.9},{"n":"Israel","gni":58870.0,"price":1.0104,"infl":3.04,"edu":5.93},{"n":"Italy","gni":62870.0,"price":0.6896,"infl":1.53,"edu":4.07},{"n":"Jamaica","gni":13090.0,"price":0.6021,"infl":4.0,"edu":5.51},{"n":"Japan","gni":58920.0,"price":0.6487,"infl":3.17,"edu":3.34},{"n":"Jordan","gni":12440.0,"price":0.4234,"infl":1.77,"edu":3.23},{"n":"Kazakhstan","gni":41090.0,"price":0.3317,"infl":11.39,"edu":4.86},{"n":"Kenya","gni":6910.0,"price":0.3368,"infl":4.07,"edu":4.02},{"n":"Kiribati","gni":6080.0,"price":0.65,"infl":2.46,"edu":16.39},{"n":"Korea Rep","gni":64210.0,"price":0.5739,"infl":2.12,"edu":5.41},{"n":"Kosovo","gni":19650.0,"price":0.4091,"infl":3.86,"edu":null},{"n":"Kuwait","gni":64040.0,"price":0.5722,"infl":2.36,"edu":6.44},{"n":"Kyrgyz Republic","gni":9120.0,"price":0.335,"infl":8.21,"edu":6.83},{"n":"Lao PDR","gni":9800.0,"price":0.227,"infl":7.74,"edu":1.23},{"n":"Latvia","gni":45740.0,"price":0.5703,"infl":3.75,"edu":4.32},{"n":"Lebanon","gni":11790.0,"price":0.3754,"infl":14.6,"edu":1.22},{"n":"Lesotho","gni":3900.0,"price":0.342,"infl":4.27,"edu":6.62},{"n":"Liberia","gni":1840.0,"price":0.0024,"infl":8.32,"edu":2.27},{"n":"Libya","gni":17150.0,"price":0.3905,"infl":1.84,"edu":2.26},{"n":"Lithuania","gni":55010.0,"price":0.5799,"infl":3.79,"edu":4.25},{"n":"Luxembourg","gni":106640.0,"price":0.9407,"infl":2.26,"edu":3.74},{"n":"Macao SAR China","gni":125630.0,"price":0.5539,"infl":0.33,"edu":3.5},{"n":"Madagascar","gni":1910.0,"price":0.3069,"infl":8.05,"edu":3.05},{"n":"Malawi","gni":1880.0,"price":0.5331,"infl":28.37,"edu":2.75},{"n":"Malaysia","gni":40070.0,"price":0.3163,"infl":1.38,"edu":3.51},{"n":"Maldives","gni":25600.0,"price":0.5118,"infl":4.01,"edu":5.17},{"n":"Mali","gni":3400.0,"price":0.3407,"infl":3.28,"edu":4.18},{"n":"Malta","gni":64900.0,"price":0.6634,"infl":2.36,"edu":4.71},{"n":"Marshall Islands","gni":10590.0,"price":0.947,"infl":null,"edu":7.7},{"n":"Mauritania","gni":7640.0,"price":0.3122,"infl":1.55,"edu":7.61},{"n":"Mauritius","gni":37000.0,"price":0.3859,"infl":3.67,"edu":4.25},{"n":"Mexico","gni":25070.0,"price":0.5369,"infl":3.81,"edu":4.06},{"n":"Micronesia Fed Sts","gni":5080.0,"price":0.9587,"infl":5.41,"edu":11.56},{"n":"Moldova","gni":19990.0,"price":0.431,"infl":7.76,"edu":6.56},{"n":"Mongolia","gni":18460.0,"price":0.3418,"infl":8.61,"edu":5.21},{"n":"Montenegro","gni":35700.0,"price":0.4173,"infl":3.9,"edu":null},{"n":"Morocco","gni":10960.0,"price":0.4205,"infl":0.7,"edu":6.02},{"n":"Mozambique","gni":1540.0,"price":0.3703,"infl":4.37,"edu":5.98},{"n":"Myanmar","gni":5890.0,"price":0.3764,"infl":8.83,"edu":2.0},{"n":"Namibia","gni":11260.0,"price":0.4068,"infl":3.51,"edu":9.08},{"n":"Naoero","gni":20200.0,"price":1.0263,"infl":-0.12,"edu":5.78},{"n":"Nepal","gni":6250.0,"price":0.2437,"infl":2.65,"edu":3.69},{"n":"Netherlands","gni":85480.0,"price":0.8438,"infl":3.26,"edu":5.18},{"n":"New Zealand","gni":53600.0,"price":0.8563,"infl":2.84,"edu":5.21},{"n":"Nicaragua","gni":8780.0,"price":0.3418,"infl":2.08,"edu":2.87},{"n":"Niger","gni":2150.0,"price":0.3561,"infl":-4.45,"edu":4.07},{"n":"Nigeria","gni":9230.0,"price":0.1284,"infl":23.01,"edu":0.32},{"n":"North Macedonia","gni":26680.0,"price":0.3742,"infl":4.07,"edu":3.3},{"n":"Norway","gni":107770.0,"price":0.9092,"infl":3.06,"edu":5.43},{"n":"Oman","gni":39390.0,"price":0.4716,"infl":0.97,"edu":4.38},{"n":"Pakistan","gni":6430.0,"price":0.2413,"infl":3.55,"edu":1.95},{"n":"Palau","gni":23480.0,"price":0.8473,"infl":-0.42,"edu":3.44},{"n":"Panama","gni":41770.0,"price":0.4508,"infl":-0.19,"edu":2.47},{"n":"Papua New Guinea","gni":4840.0,"price":0.579,"infl":4.42,"edu":0.78},{"n":"Paraguay","gni":19390.0,"price":0.3482,"infl":4.04,"edu":3.53},{"n":"Peru","gni":17540.0,"price":0.5147,"infl":1.53,"edu":4.36},{"n":"Philippines","gni":14460.0,"price":0.3316,"infl":1.66,"edu":3.97},{"n":"Poland","gni":52290.0,"price":0.5237,"infl":3.81,"edu":4.31},{"n":"Portugal","gni":52240.0,"price":0.6037,"infl":2.34,"edu":4.55},{"n":"Puerto Rico US","gni":35330.0,"price":0.7782,"infl":null,"edu":4.27},{"n":"Qatar","gni":126290.0,"price":0.5627,"infl":1.27,"edu":3.23},{"n":"Romania","gni":49550.0,"price":0.4428,"infl":7.19,"edu":3.28},{"n":"Russian Federation","gni":49220.0,"price":0.32,"infl":8.72,"edu":4.16},{"n":"Rwanda","gni":4070.0,"price":0.2698,"infl":5.91,"edu":4.61},{"n":"Samoa","gni":9300.0,"price":0.6284,"infl":2.21,"edu":5.46},{"n":"San Marino","gni":71920.0,"price":0.792,"infl":2.3,"edu":2.9},{"n":"Sao Tome and Principe","gni":6920.0,"price":0.6124,"infl":11.05,"edu":5.03},{"n":"Saudi Arabia","gni":74400.0,"price":0.4681,"infl":2.08,"edu":4.48},{"n":"Senegal","gni":5100.0,"price":0.3578,"infl":1.46,"edu":6.16},{"n":"Serbia","gni":31780.0,"price":0.4501,"infl":3.89,"edu":3.4},{"n":"Seychelles","gni":34930.0,"price":0.5425,"infl":0.3,"edu":4.45},{"n":"Sierra Leone","gni":3690.0,"price":0.2421,"infl":7.49,"edu":2.62},{"n":"Singapore","gni":135750.0,"price":0.6049,"infl":0.9,"edu":2.19},{"n":"Sint Maarten Dutch part","gni":52060.0,"price":0.7608,"infl":2.19,"edu":3.92},{"n":"Slovak Republic","gni":47920.0,"price":0.5789,"infl":4.0,"edu":4.66},{"n":"Slovenia","gni":58880.0,"price":0.6309,"infl":2.37,"edu":5.28},{"n":"Solomon Islands","gni":2790.0,"price":0.7484,"infl":3.36,"edu":8.29},{"n":"Somalia Fed Rep","gni":1640.0,"price":0.5245,"infl":null,"edu":0.0},{"n":"South Africa","gni":15600.0,"price":0.4148,"infl":3.21,"edu":6.02},{"n":"South Sudan","gni":1010.0,"price":0.0586,"infl":91.44,"edu":1.57},{"n":"Spain","gni":59830.0,"price":0.6452,"infl":2.7,"edu":4.59},{"n":"Sri Lanka","gni":16750.0,"price":0.2693,"infl":-4.76,"edu":1.83},{"n":"St Kitts and Nevis","gni":36430.0,"price":0.6858,"infl":3.56,"edu":3.5},{"n":"St Lucia","gni":26180.0,"price":0.5143,"infl":2.03,"edu":3.85},{"n":"St Vincent and the Grenadines","gni":22340.0,"price":0.551,"infl":0.82,"edu":6.46},{"n":"Sudan","gni":2140.0,"price":2.1501,"infl":138.81,"edu":2.02},{"n":"Suriname","gni":21000.0,"price":0.3121,"infl":9.21,"edu":2.87},{"n":"Sweden","gni":76090.0,"price":0.8705,"infl":0.68,"edu":7.32},{"n":"Switzerland","gni":101690.0,"price":1.1196,"infl":0.15,"edu":4.86},{"n":"Syrian Arab Republic","gni":4740.0,"price":0.3224,"infl":13.42,"edu":5.13},{"n":"Tajikistan","gni":8240.0,"price":0.2764,"infl":6.0,"edu":5.44},{"n":"Tanzania","gni":4370.0,"price":0.2885,"infl":3.33,"edu":3.16},{"n":"Thailand","gni":25570.0,"price":0.3069,"infl":-0.13,"edu":2.52},{"n":"Timor-Leste","gni":5120.0,"price":0.2788,"infl":0.43,"edu":5.24},{"n":"Togo","gni":4090.0,"price":0.3392,"infl":0.43,"edu":4.14},{"n":"Tonga","gni":9240.0,"price":0.75,"infl":5.59,"edu":5.31},{"n":"Trinidad and Tobago","gni":36080.0,"price":0.511,"infl":0.99,"edu":3.23},{"n":"Tunisia","gni":14870.0,"price":0.2948,"infl":5.15,"edu":6.73},{"n":"Turkiye","gni":44630.0,"price":0.4107,"infl":34.88,"edu":3.1},{"n":"Turkmenistan","gni":22830.0,"price":0.0003,"infl":null,"edu":4.29},{"n":"Turks and Caicos Islands","gni":37500.0,"price":0.9868,"infl":null,"edu":2.95},{"n":"Tuvalu","gni":11000.0,"price":0.8938,"infl":0.5,"edu":12.85},{"n":"Uganda","gni":3410.0,"price":0.3529,"infl":3.58,"edu":2.56},{"n":"Ukraine","gni":18750.0,"price":0.3103,"infl":12.73,"edu":5.14},{"n":"United Arab Emirates","gni":81640.0,"price":0.6336,"infl":1.25,"edu":3.89},{"n":"United Kingdom","gni":64210.0,"price":0.8916,"infl":3.88,"edu":5.91},{"n":"United States","gni":89490.0,"price":1.0,"infl":2.95,"edu":5.42},{"n":"Uruguay","gni":36330.0,"price":0.6581,"infl":4.65,"edu":4.76},{"n":"Uzbekistan","gni":13640.0,"price":0.2918,"infl":8.8,"edu":5.47},{"n":"Vanuatu","gni":4970.0,"price":0.9012,"infl":0.66,"edu":7.64},{"n":"Venezuela RB","gni":20840.0,"price":0.0,"infl":254.95,"edu":6.87},{"n":"Viet Nam","gni":17580.0,"price":0.2893,"infl":3.31,"edu":2.89},{"n":"Yemen Rep","gni":3020.0,"price":0.0691,"infl":8.1,"edu":5.15},{"n":"Zambia","gni":3990.0,"price":0.2992,"infl":13.91,"edu":4.07},{"n":"Zimbabwe","gni":6390.0,"price":0.5583,"infl":104.71,"edu":0.38}];
+
+document.getElementById('countLabel').textContent = DATA.length + ' countries available';
+
+const selA = document.getElementById('countryA');
+const selB = document.getElementById('countryB');
+const sorted = [...DATA].sort((a,b)=>a.n.localeCompare(b.n));
+sorted.forEach(d=>{
+  const o1 = document.createElement('option'); o1.value=d.n; o1.textContent=d.n; selA.appendChild(o1);
+  const o2 = document.createElement('option'); o2.value=d.n; o2.textContent=d.n; selB.appendChild(o2);
+});
+selA.value = "Pakistan";
+selB.value = "United Kingdom";
+
+function affordScore(d, all){
+  const withInfl = all.filter(x=>x.infl !== null);
+  const gniRank = [...all].sort((a,b)=>b.gni-a.gni).findIndex(x=>x.n===d.n);
+  const priceRank = [...all].sort((a,b)=>a.price-b.price).findIndex(x=>x.n===d.n);
+  if(d.infl === null) return null;
+  const inflRank = [...withInfl].sort((a,b)=>a.infl-b.infl).findIndex(x=>x.n===d.n);
+  return gniRank + priceRank + inflRank;
+}
+
+function fmt(v, suffix){ return v===null || v===undefined ? '<span class="na">not reported</span>' : v+suffix; }
+
+function render(){
+  const a = DATA.find(x=>x.n===selA.value);
+  const b = DATA.find(x=>x.n===selB.value);
+  const result = document.getElementById('result');
+  if(!a || !b || a.n===b.n){ result.classList.remove('show'); return; }
+  result.classList.add('show');
+
+  document.getElementById('colA').textContent = a.n;
+  document.getElementById('colB').textContent = b.n;
+
+  const scoreA = affordScore(a, DATA);
+  const scoreB = affordScore(b, DATA);
+  let winnerText = "Not enough data";
+  if(scoreA !== null && scoreB !== null){
+    winnerText = scoreA < scoreB ? a.n : (scoreB < scoreA ? b.n : "Roughly equal");
+  }
+  document.getElementById('winnerName').textContent = winnerText;
+
+  const rows = [
+    {label:"Purchasing power (GNI/capita, PPP, intl $)", av:a.gni.toLocaleString(), bv:b.gni.toLocaleString(), aBetter:a.gni>b.gni, bBetter:b.gni>a.gni},
+    {label:"Price level vs. US (1.0 = same as US)", av:a.price.toFixed(2), bv:b.price.toFixed(2), aBetter:a.price<b.price, bBetter:b.price<a.price},
+    {label:"Inflation (annual %)", av: a.infl===null?null:a.infl.toFixed(1)+"%", bv: b.infl===null?null:b.infl.toFixed(1)+"%", aBetter: a.infl!==null && (b.infl===null || a.infl<b.infl), bBetter: b.infl!==null && (a.infl===null || b.infl<a.infl)},
+    {label:"Education spending (% of GDP)", av: a.edu===null?null:a.edu.toFixed(1)+"%", bv: b.edu===null?null:b.edu.toFixed(1)+"%", aBetter: a.edu!==null && (b.edu===null || a.edu>b.edu), bBetter: b.edu!==null && (a.edu===null || b.edu>a.edu)},
+  ];
+
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = '';
+  rows.forEach(r=>{
+    const tr = document.createElement('tr');
+    const avDisplay = r.av===null ? '<span class="na">not reported</span>' : r.av;
+    const bvDisplay = r.bv===null ? '<span class="na">not reported</span>' : r.bv;
+    tr.innerHTML = `<td class="metric">${r.label}</td><td class="${r.aBetter?'better':''}">${avDisplay}</td><td class="${r.bBetter?'better':''}">${bvDisplay}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+selA.addEventListener('change', render);
+selB.addEventListener('change', render);
+render();
+</script>
+</body>
+</html>
