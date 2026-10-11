@@ -53,8 +53,6 @@ still clearly marked, just not allowed to wreck the clustering math.
 
 ## What I still don't trust
 
-I have full confidence in this project and its results — I went through
-every step myself (the API pull, the cleaning, the clustering fix), ran
-into real problems along the way, and fixed and verified each one by
-actually running the scripts rather than assuming they worked. I trust
-this is the best version I could have put together.
+The World Bank API does not require all countries to use a common baseline year for all individual indicators, and may instead return the most recent non-empty value that is available for each country, for example 2023 data for one country but 2021 data for another country in the same indicator for GNI per capita or inflation. By comparing two countries at different points in time, unmeasured macroeconomic differences would appear (particularly after economic changes following the pandemic), potentially changing borderline cluster membership.
+
+The price-level ratio calculated and GNI per capita are both national averages. They mask extreme differences in the cost of living of key education cities and rural areas. The living and accommodation costs in a capital city or financial centre (such as London, Tokyo or New York) are likely to be much greater than suggested by a national-level affordability indicator, and may mislead students planning their university city budgets.
