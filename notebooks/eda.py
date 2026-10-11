@@ -1,9 +1,7 @@
 """
 eda.py
 Exploratory Data Analysis for the Study-Abroad Affordability Comparison
-project. Reads the final cleaned file (data/processed/countries_clean.csv)
-and produces a 5-chart figure plus the printed summary stats quoted in
-EDA.md. Capped at 5 charts per the assignment's 3-5 chart limit.
+project. 
 """
 import pandas as pd
 import numpy as np
@@ -54,7 +52,7 @@ for flag, sub in df.groupby("economic_instability_flag"):
                      alpha=0.7, s=25,
                      color="#C44E52" if flag else "#4C72B0")
 axes[3].set_title("Confounder Check: Instability Flag vs the Same Axes\n"
-                   ""Six high-inflation countries are highlighted",
+                   "Six high-inflation countries are highlighted",
                    fontsize=10)
 axes[3].set_xlabel("GNI per capita, PPP (intl $)")
 axes[3].set_ylabel("Price level ratio")
