@@ -45,10 +45,7 @@ AI_USE_LOG.md                    # Required AI-use disclosure
 CONTRIBUTIONS.md                 # Signed contribution split
 ```
 
-*A couple of duplicate CSVs (`countries_clean.csv`, `wdi_fetched_countries.csv`)
-exist at the repo root from an earlier upload — these are identical copies
-of the files already correctly placed in `data/processed/` and `data/raw/`
-above, and can be ignored or deleted.*
+
 
 ## Reproducing the pipeline
 
