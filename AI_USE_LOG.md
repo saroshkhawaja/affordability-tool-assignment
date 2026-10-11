@@ -50,3 +50,7 @@ All data figures and script outputs quoted throughout this repo were
 produced by the student running `fetch_data.py` and `clean_data.py`
 themselves and pasting back the real console output, which is reproduced
 verbatim in CLEANING.md.
+
+## Deployment
+
+We used Javascript CSS and HTML and we both have never touched these languages, so we took help from AI to write code for us because we need proper styling so we used CSS we need structure we used HTML and javascript for the logic loading the 191 countries’ data, reacting when you pick a country, calculating which one is “more affordable,” filling in the table
