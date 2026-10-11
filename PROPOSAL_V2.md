@@ -85,7 +85,7 @@ level ratio), `FP.CPI.TOTL.ZG` (inflation), and `SE.XPD.TOTL.GD.ZS`
 
 ## Deployment
 
-A live, interactive comparison tool will be published we are working on it 
+A live, interactive comparison tool is built and shared the index.html with you 
 
 
 ## Why we changed the topic 
