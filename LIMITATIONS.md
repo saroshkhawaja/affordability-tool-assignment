@@ -45,3 +45,5 @@ There are 191 countries in the world, of which 23 countries (about 12%) report t
    grouping tool. It does not predict future affordability and should not
    be read as recommending one country's immigration, tuition, or
    cost-of-living policy over another's.
+
+9. **Deployment**  It is deployed as a static page on GitHub Pages and hence the data is a snapshot of when data was pulled, not live — updating the data means re-running the pipeline and re-uploading the file on to GitHub Pages, not updating automatically. Everything is run in the browser without any backend and there is no tracking of use, no saved comparisons, etc. – for something as simple as a side-by-side comparison tool, that was a good compromise.
